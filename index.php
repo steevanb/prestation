@@ -289,300 +289,6 @@
                     </div>
                 </div>
             </section>
-
-
-            <section id="resume" class="tCenter">
-                <!--Skills-->
-                <div class="skills ofsTop ">
-
-                    <!--Big title-->
-                    <div class="bigTitle ">
-                        <h1>Mes competences et expertises techniques</h1>
-                        <img src="images/star.png" alt="">
-                    </div>
-                    <!--End big title-->
-
-                    <!--Container-->
-                    <div class="container container-wide clearfix">
-
-                        <!--Skills content-->
-                        <div class="skillsContent sixteen columns margHBottom tLeft">
-
-                            <!--Skill-->
-                            <div class="skill ofsInBottom">
-
-                                <!--Skill title-->
-                                <div class="skillTitle ofsInBottom">
-                                    <h1>Programmation</h1>
-                                </div>
-                                <!--End skill title-->
-
-                                <!--Skill inner-->
-                                <div class="skillInner">
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
-                                            <img src="images/skills/php.jpg" />
-                                            <div class="skillbarTitle">photoshop</div>
-                                            <div class="percentage graphic percent90"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">illustrator</div>
-                                            <div class="percentage graphic percent60"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">indesign</div>
-                                            <div class="percentage graphic percent40"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">3dmax</div>
-                                            <div class="percentage graphic percent50"></div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!--End skill inner-->
-
-
-                            </div>
-                            <!--End skill-->
-
-
-
-
-                            <!--Skill-->
-                            <div class="skill ofsInBottom">
-
-                                <!--Skill title-->
-                                <div class="skillTitle ofsInBottom">
-                                    <h1>Programming Skills</h1>
-                                </div>
-                                <!--End skill title-->
-
-
-                                <!--Skill inner-->
-                                <div class="skillInner">
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Web Design</div>
-                                            <div class="percentage progra percent90"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Wordpress</div>
-                                            <div class="percentage progra percent50"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Jquery</div>
-                                            <div class="percentage progra percent60"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Html/Css</div>
-                                            <div class="percentage progra percent95"></div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!--End skill inner-->
-
-
-                            </div>
-                            <!--End skill-->
-
-
-
-
-                            <!--Skill-->
-                            <div class="skill ofsInBottom">
-
-                                <!--Skill title-->
-                                <div class="skillTitle ofsBSmall">
-                                    <h1>personal skills</h1>
-                                </div>
-                                <!--End skill title-->
-
-
-                                <!--Skill inner-->
-                                <div class="skillInner">
-                                    <div class="introSkill">
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                            excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                                            officia deserunt mollitia animi, id est laborum et dolorum fuga.
-                                            Et harum quidem rerum facilis est et expedita distinctio iusto odio dignissimos ducimus qui blanditiis. </p>
-                                    </div>
-
-
-                                    <div class="personal ofsTSmall clearfix">
-                                        <ul class="pList">
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Responsible</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Diligence</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Labour</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Rigor</li>
-                                        </ul>
-
-
-                                        <ul class="pList">
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Creative</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Funny</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Great Communicator</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Flexible</li>
-                                        </ul>
-
-
-                                        <ul class="pList">
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Personal integrity</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Positive work ethic</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Team oriented</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Reliability</li>
-
-                                        </ul>
-
-                                    </div>
-
-
-                                </div>
-                                <!--End skill inner-->
-
-
-                            </div>
-                            <!--End skill-->
-
-
-
-                            <!--Skill-->
-                            <div class="skill ofsBMedium">
-
-                                <!--Skill title-->
-                                <div class="skillTitle ofsBSmall">
-                                    <h1>languages skills</h1>
-                                </div>
-                                <!--End skill title-->
-
-
-                                <!--Skill inner-->
-                                <div class="skillInner">
-                                    <ul class="langList clearfix">
-                                        <li>
-                                            <h4>English</h4>
-                                            <div class="rating">
-                                                <span>	<i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span class="transparent"><i class="fa fa-star"></i></span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <h4>French</h4>
-                                            <div class="rating">
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span class="transparent"><i class="fa fa-star"></i></span>
-                                                <span class="transparent"><i class="fa fa-star"></i></span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <h4>German</h4>
-                                            <div class="rating">
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span class="transparent"><i class="fa fa-star"></i></span>
-                                                <span class="transparent"><i class="fa fa-star"></i></span>
-                                                <span class="transparent"><i class="fa fa-star"></i></span>
-                                                <span class="transparent"><i class="fa fa-star"></i></span>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <h4>spanish</h4>
-                                            <div class="rating">
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span><i class="fa fa-star"></i></span>
-                                                <span class="transparent"><i class="fa fa-star"></i></span>
-                                                <span class="transparent"><i class="fa fa-star"></i></span>
-                                            </div>
-                                        </li>
-
-                                    </ul>
-
-                                </div>
-                                <!--End skill inner-->
-
-
-                            </div>
-                            <!--End skill-->
-
-
-                            <!--Bet Buttons-->
-                            <div class="getBtn">
-
-                                <div class="getCv">
-                                    <a href="#"><i class="fa fa-arrow-circle-o-down"></i>
-                                        <h3>Download My CV</h3>
-                                    </a>
-                                </div>
-
-
-                                <div class="printCV">
-                                    <a href="#"><i class="fa fa-print"></i>
-                                        <h3>print My CV</h3>
-                                    </a>
-                                </div>
-
-
-                            </div>
-                            <!--End get buttons-->
-
-
-                        </div>
-                        <!--End skills content-->
-
-
-
-                    </div>
-                    <!--End container-->
-
-
-
-                </div>
-                <!--End skills-->
-            </section>
-
-
             <!--Resume section-->
 
             <section id="resume" class="tCenter">
@@ -590,42 +296,36 @@
                 <div class="tgreyHolder bgGrey ofsTMedium">
                     <!--Big title-->
                     <div class="bigTitle ">
-                        <h1>my employment</h1>
+                        <h1>CDI, freelance et clients</h1>
                         <img alt="" src="images/star.png">
                     </div>
                     <!--End big title-->
                 </div>
 
-
                 <!--Container-->
                 <div class="container clearfix">
-
-
                     <!--Resume details-->
                     <div class="twelve columns resumeDetails margHTop margHBottom">
 
                         <!--Employment-->
                         <div class="employment">
-                            <!--Em-->
                             <div class="em clearfix">
                                 <div class="dtIco">
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
 
                                 <div class="det">
-                                    <h3>WebDesigner <span>– Mutation Media</span> </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <h3>Jacquet Metals<span>  freelance</span> </h3>
+                                    <p>
+                                        Renfort d'une équipe de 15 développeurs PHP sur un ERP international gérant l'achat, la vente et les stocks de plaques de métal.
+                                    </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>2005 - 2014</span>
+                                        <span>2014 - 2015</span>
                                     </div>
                                 </div>
                             </div>
-                            <!--End em-->
 
-
-                            <!--Em-->
                             <div class="em clearfix">
                                 <div class="dtIco">
                                     <span class="ico"><i class="fa fa-suitcase"></i>
@@ -633,19 +333,18 @@
                                 </div>
 
                                 <div class="det">
-                                    <h3>Web Developer <span>– Mutation Media</span> </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <h3>Kreactive - Digischool<span>  freelance</span> </h3>
+                                    <p>
+                                        Référent technique Symfony2 et gestion complète d'un projet d'annuaire de cours en ligne, en partenariat avec LeMonde.
+                                    </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>2005 - 2014</span>
+                                        <span>2014</span>
 
                                     </div>
                                 </div>
                             </div>
-                            <!--End em-->
 
-                            <!--Em-->
                             <div class="em clearfix">
                                 <div class="dtIco">
                                     <span class="ico"><i class="fa fa-suitcase"></i>
@@ -653,19 +352,106 @@
                                 </div>
 
                                 <div class="det">
-                                    <h3>SDK Developer <span>– Mutation Media</span> </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <h3>Evolutions logiciel ADJ<span>  clients InfoDroid</span> </h3>
+                                    <p>
+                                        Evolutions demandées par les accueils de jour, nouvelles statistiques et mise aux normes médicales de 2014.
+                                    </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>2005 - 2014</span>
-
+                                        <span>2014</span>
                                     </div>
                                 </div>
                             </div>
-                            <!--End em-->
 
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    </span>
+                                </div>
 
+                                <div class="det">
+                                    <h3>Gamned - Makazi<span>  freelance</span> </h3>
+                                    <p>
+                                        Création d'un outil de statistiques avancées sur des affichages publicitaires et des envois de mail.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>2013</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    </span>
+                                </div>
+
+                                <div class="det">
+                                    <h3>Accueils de jour<span>  clients InfoDroid</span> </h3>
+                                    <p>
+                                        Création du logiciel de gestion ADJ : dossier médical, agenda des présences, comptabilité, statistiques officielles etc.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>2012 - 2013</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    </span>
+                                </div>
+
+                                <div class="det">
+                                    <h3>Alptis Assurances<span>  CDI</span> </h3>
+                                    <p>
+                                        Développement de tarificateurs WEB pour des mutuelles et des assurances de prêt, espace courtier, évolutions du framework Copix.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>2007 - 2011</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    </span>
+                                </div>
+
+                                <div class="det">
+                                    <h3>Arawak<span>  CDI</span> </h3>
+                                    <p>
+                                        Développement d'un logiciel de gestion de mairies, casernes de pompiers, organismes officiels etc.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>2006 - 2007</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    </span>
+                                </div>
+
+                                <div class="det">
+                                    <h3>Amitel<span>  BTS en alternance</span> </h3>
+                                    <p>
+                                        Développement de sites vitrines, CMS et cartes dynamiques pour divers milieux : mairies, domaine médical etc.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>2004 - 2006</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!--End employment-->
 
@@ -675,22 +461,17 @@
                 </div>
                 <!--End container-->
 
-
-
-
                 <div class="tdarkHolder bgGreyDark ofsTMedium">
                     <!--Big title-->
                     <div class="bigTitle dark">
-                        <h1>my education</h1>
+                        <h1>Etudes</h1>
                         <img alt="" src="images/starL.png">
                     </div>
                     <!--End big title-->
                 </div>
 
-
                 <!--Container-->
                 <div class="container clearfix">
-
 
                     <!--Resume details-->
                     <div class="twelve columns resumeDetails margHTop margHBottom">
@@ -704,13 +485,13 @@
                                 </div>
 
                                 <div class="det">
-                                    <h3>Bachelor Degree <span>– Mutation Media</span> </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <h3>BTS Informatique de gestion<span> en alternance</span> </h3>
+                                    <p>
+                                        Etudes effectuées à l'IGS à Lyon, en alternance à Amitel. BTS obtenu avec une moyenne en informatique de 17/20.
+                                    </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>2005 - 2014</span>
-
+                                        <span>2004 - 2006</span>
                                     </div>
                                 </div>
                             </div>
@@ -724,38 +505,18 @@
                                 </div>
 
                                 <div class="det">
-                                    <h3>Master Degree <span>– Mutation Media</span> </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <h3>BAC STI électrotechnique</h3>
+                                    <p>
+                                        Etudes effectuées au lycée Ferdinand Buisson, à Voiron (38).
+                                    </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>2005 - 2014</span>
+                                        <span>2000 - 2003</span>
 
                                     </div>
                                 </div>
                             </div>
                             <!--End ed-->
-
-                            <!--Ed-->
-                            <div class="ed clearfix">
-                                <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-graduation-cap"></i></span>
-                                </div>
-
-                                <div class="det">
-                                    <h3>School Of Science <span>– Mutation Media</span> </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                    <div class="date">
-                                        <i class="fa fa-calendar-o"></i>
-                                        <span>2005 - 2014</span>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End ed-->
-
-
                         </div>
                         <!--End education-->
 
