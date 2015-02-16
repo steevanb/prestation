@@ -47,7 +47,7 @@
                         <li><img src="images/profileImages/profileLarge.jpg" class="slide" alt=""/>
                             <div class="caption">
                                 <h1>Steevan BARBOYON</h1>
-                                <p>Analyste développeur PHP / Symfony2 depuis 2001</p>
+                                <p>Analyste développeur PHP depuis 2001, Symfony 2 depuis 2013</p>
                             </div>
                         </li>
                     </ul>
