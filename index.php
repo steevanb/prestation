@@ -58,24 +58,47 @@
                 <div class="mainHeader default">
                     <div class="container clearfix">
                         <a href="#" class="mobileBtn" ><i class="fa fa-bars"></i></a>
-                        <div class="six columns nav first">
-                            <nav class="mainNav" >
-                                <ul>
-                                    <li><a class="scroll" href="#wrapper">Competences</a></li>
-                                    <li><a class="scroll" href="#about">Experiences</a></li>
-                                    <li><a class="scroll" href="#resume">Etudes</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="four columns headerSocials">
+                        <div class="eighteen columns nav first">
                             
-                        </div>
-                        <div class="six columns nav second">
                             <nav class="mainNav" >
                                 <ul>
-                                    <li><a class="scroll" href="https://github.com/steevanb" target="_blank">GitHub</a></li>
-                                    <li><a class="scroll" href="http://steevan-barboyon.blogspot.fr" target=_blank">BLog</a></li>
-                                    <li><a class="scroll" href="#contact">Contact</a></li>
+                                    <li><img src="images/menus/avatar.png" alt="Avatar" title="Non c'est pas mon chat" /></li>
+                                    <li class="link">
+                                        <a class="scroll" href="#skills">
+                                            <img src="images/menus/skills.png" /><br />
+                                            Competences
+                                        </a>
+                                    </li>
+                                    <li class="link">
+                                        <a class="scroll" href="#experiences">
+                                            <img src="images/menus/experiences.png" /><br />
+                                            Experiences
+                                        </a>
+                                    </li>
+                                    <li class="link">
+                                        <a class="scroll" href="#studies">
+                                            <img src="images/menus/studies.png" /><br />
+                                            Etudes
+                                        </a>
+                                    </li>
+                                    <li class="link">
+                                        <a class="scroll" href="https://github.com/steevanb" target="_blank">
+                                            <img src="images/menus/github.png" /><br />
+                                            GitHub
+                                        </a>
+                                    </li>
+                                    <li class="link">
+                                        <a class="scroll" href="http://steevan-barboyon.blogspot.fr" target=_blank">
+                                            <img src="images/menus/blogger.png" /><br />
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li class="link">
+                                        <a class="scroll" href="https://drive.google.com/open?id=0B0LunFLaCgfYVGdPVDA4SFdhUnc&authuser=0" target="_blank">
+                                            <img src="images/menus/download.png" /><br />
+                                            Telecharger
+                                        </a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -142,58 +165,114 @@
                     </div>
                 </div>
             </section>
-
+            
             <section id="skills" class="tCenter">
-                <div class="skills ofsTop ">
-                    <div class="tgreyHolder bgGrey ofsTMedium">
+				<div class="skills ofsTop ">
+					<div class="tgreyHolder bgGrey ofsTMedium">
                         <div class="bigTitle ">
                             <h1>Mes competences et expertises techniques</h1>
                             <img src="images/star.png" alt="">
                         </div>
                     </div>
+                    
+					<div class="container clearfix">
+						<div class="skillsContent twelve columns margHBottom tLeft">
+							<div class="skill ofsInBottom">
+								<br /><br /><br /><br /><br /><br />
+								<div class="skillInner">
+									<div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">PHP <span>depuis 2001</span></div>
+                                            <div class="percentage graphic percent90"></div>
+                                        </div>              
+                                    </div>
 
-                    <div class="container container-wide clearfix">
-                        <div class="skillsContent eighteen columns margHBottom tLeft">
-                            <div class="skill ofsInBottom">
-                                <div class="skillTitle ofsInBottom">
-                                    <h1>Programmation</h1>
-                                </div>
-                                <div style="width: 50%; float: left">
-                                    <div style="float: left">
-                                        <img src="images/skills/php.jpg" />
+                                    <div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Symfony 2 <span>depuis 2013</span></div>
+                                            <div class="percentage graphic percent70"></div>
+                                        </div>              
                                     </div>
-                                    <div>
-                                        <div style="height: 85px; padding-left: 210px">
-                                            <ul>
-                                                <li>Depuis 2004</li>
-                                                <li>Exemples de code : <a href="https://github.com/steevanb" target="_blank">github</a></li>
-                                                <li><a href="http://steevan-barboyon.blogspot.fr/search/label/PHP" target="_blank">Articles sur mon blog</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="my-skillbar">
-                                            <div class="percent90"></div>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div style="width: 50%;  float: left">
-                                    <div style="float: left">
-                                        <img src="images/skills/php.jpg" />
+                                    <div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Copix <span>depuis 2007</span></div>
+                                            <div class="percentage graphic percent95"></div>
+                                        </div>              
                                     </div>
-                                    <div>
-                                        <ul>
-                                            <li>Depuis 2004</li>
-                                            <li>Exemples de code : <a href="https://github.com/steevanb" target="_blank">github</a></li>
-                                            <li><a href="http://steevan-barboyon.blogspot.fr/search/label/PHP" target="_blank">Articles sur mon blog</a></li>
-                                        </ul>
-                                        <div class="my-skillbar">
-                                            <div class="percent90"></div>
-                                        </div>
+                                    
+                                    <div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Delphi <span>2001 - 2005</span></div>
+                                            <div class="percentage graphic percent50"></div>
+                                        </div>              
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+								</div>
+                                
+                                <br /><br /><br /><br /><br />
+								<div class="skillInner">
+									<div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">MySQL <span>depuis 2001</span></div>
+                                            <div class="percentage progra percent90"></div>
+                                        </div>              
+                                    </div>
+
+                                    <div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Oracle <span>depuis 2006</span></div>
+                                            <div class="percentage progra percent70"></div>
+                                        </div>              
+                                    </div>
+
+                                    <div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">HBase <span>2013</span></div>
+                                            <div class="percentage progra percent40"></div>
+                                        </div>              
+                                    </div>
+                                    
+                                    <div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">SQL Server <span>2006 - 2007</span></div>
+                                            <div class="percentage progra percent60"></div>
+                                        </div>              
+                                    </div>
+								</div>
+                                
+                                <br /><br /><br /><br /><br />
+								<div class="skillInner">
+                                    <div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Git et git flow <span>depuis 2013</span></div>
+                                            <div class="percentage graphic percent90"></div>
+                                        </div>              
+                                    </div>
+                                    
+                                    <div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">composer <span>depuis 2013</span></div>
+                                            <div class="percentage graphic percent95"></div>
+                                        </div>              
+                                    </div>
+                                    
+									<div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Linux (Debian, Ubuntu) <span>depuis 2009</span></div>
+                                            <div class="percentage graphic percent80"></div>
+                                        </div>              
+                                    </div>
+                                    
+                                    <div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Admin serveur Apache2 - PHP <span>depuis 2010</span></div>
+                                            <div class="percentage graphic percent90"></div>
+                                        </div>              
+                                    </div>
+								</div>
+							</div>
+						</div>
+					</div>
                 </div>
             </section>
 
