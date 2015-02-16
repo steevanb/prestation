@@ -25,6 +25,9 @@
     .container .column,
 	.columns, 
     .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    
+    .container-wide                             { width: 1060px !important; }
+    
     .row                                        { margin-bottom: 20px; }
 
     /* Nested Column Classes */
@@ -50,8 +53,11 @@
     .container .fourteen.columns                { width: 820px; }
     .container .fifteen.columns                 { width: 880px; }
     .container .sixteen.columns                 { width: 940px; }
+    .container .seventeen.columns               { width: 1000px; }
+    .container .eighteen.columns                { width: 1060px; }
 
-    .container .one-third.column                { width: 300px; }
+    .container .one-third.column                { width: 350px; }
+    .container .one-third.column-small          { width: 300px !important; }
     .container .two-thirds.column               { width: 620px; }
 
     /* Offsets */
