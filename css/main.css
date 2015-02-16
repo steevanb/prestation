@@ -256,7 +256,7 @@ header.base{
 
 .switchedHeader {
     position: fixed;
-	background: rgba(255, 255, 255, 0.97);
+	background: rgba(222, 222, 222, 0.90);
 	left:0;
 	top:0;
 }
@@ -267,11 +267,14 @@ header.base{
 	text-align:center;
 }
 
-
-.nav{
-	width:360px !important;
+.nav li {
+    width: 130px;
+    float: left;
 }
 
+.nav li.link a {
+    padding-top: 25px;
+}
 
 .headerSocials{
 	width:180px !important;
@@ -306,7 +309,6 @@ header.base{
 .mainNav li a {
     color: #ffffff;
     display: block;
-    padding: 29px 15px;
     position: relative;
 }
 
@@ -764,38 +766,60 @@ h1.prfTitle span {
 }
 
 .skillbarTitle {
-    font-size: 12px;
+    font-size: 16px;
     left: 0;
     position: absolute;
     top: -30px;
     z-index: 10;
-	text-transform:uppercase;
+	text-transform: uppercase;
+    font-family: "open_sansbold",Arial,sans-serif;
+    color: #343434;
+}
+
+.skillbarTitle span {
+    font-size: 13px;
+    font-style: italic;
+    text-transform: none;
+    font-family: "open_sanslight_italic",Arial,sans-serif;
+    color: #343434;
+}
+
+.percent20 {
+    width: 20%;
+}
+
+.percent30 {
+    width: 30%;
+}
+
+.percent40 {
+    width: 40%;
+}
+
+
+.percent50 {
+    width: 50%;
+}
+
+.percent60 {
+    width: 60%;
+}
+
+.percent70 {
+    width: 70%;
+}
+
+.percent80 {
+    width: 80%;
 }
 
 .percent90 {
     width: 90%;
 }
 
-
-.percent40 {
-    width: 50%;
-}
-
-
-.percent50 {
-    width: 70%;
-}
-
-
-.percent60 {
-    width: 60%;
-}
-
-
 .percent95 {
     width: 95%;
 }
-
 
 .skillInner .intro{
 	padding-bottom:0;
