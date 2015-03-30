@@ -161,6 +161,7 @@
                             <li><span>SIREN</span> : 807 949 961</li>
                             <li><span>Création</span> : 30/07/2010</li>
                             <li><span>Site</span> : <a href="http://www.info-droid.fr" target="_blank">www.info-droid.fr</a></li>
+							<li><span>Adresse</span> : 87 cours du docteur Long, 69 003 Lyon
                         </ul>
                     </div>
                 </div>
@@ -190,13 +191,20 @@
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Symfony 2 <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent70"></div>
+                                            <div class="percentage graphic percent80"></div>
                                         </div>              
                                     </div>
-
-                                    <div class="skillBar">            
+									
+									<div class="skillBar">            
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Copix <span>depuis 2007</span></div>
+                                            <div class="skillbarTitle">Scripts bash <span>depuis 2013</span></div>
+                                            <div class="percentage graphic percent40"></div>
+                                        </div>              
+                                    </div>
+									
+									<div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Copix (framewor PHP) <span>depuis 2007</span></div>
                                             <div class="percentage graphic percent95"></div>
                                         </div>              
                                     </div>
@@ -204,7 +212,7 @@
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Delphi <span>2001 - 2005</span></div>
-                                            <div class="percentage graphic percent50"></div>
+                                            <div class="percentage graphic percent40"></div>
                                         </div>              
                                     </div>
 								</div>
@@ -229,6 +237,13 @@
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">HBase <span>2013</span></div>
                                             <div class="percentage progra percent40"></div>
+                                        </div>              
+                                    </div>
+									
+									<div class="skillBar">            
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">PostGre <span>depuis 2015</span></div>
+                                            <div class="percentage progra percent50"></div>
                                         </div>              
                                     </div>
                                     
@@ -266,7 +281,7 @@
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Admin serveur Apache2 - PHP <span>depuis 2010</span></div>
-                                            <div class="percentage graphic percent90"></div>
+                                            <div class="percentage graphic percent80"></div>
                                         </div>              
                                     </div>
 								</div>
@@ -275,7 +290,7 @@
 					</div>
                 </div>
             </section>
-
+			
             <section id="experiences" class="tCenter">
                 <div class="tgreyHolder bgGrey ofsTMedium">
                     <div class="bigTitle ">
@@ -472,6 +487,30 @@
                     </div>
                 </div>
             </section>
+			
+			<section id="experiences" class="tCenter">
+                <div class="tgreyHolder bgGrey ofsTMedium">
+                    <div class="bigTitle ">
+                        <h1>Me retrouver sur internet</h1>
+                        <img alt="" src="images/star.png">
+                    </div>
+                </div>
+				
+				<div class="container clearfix">
+                    <div class="twelve columns resumeDetails margHTop margHBottom">
+						<center>
+							<img src="images/github.png" alt="GitHub" title="GitHub" />
+							<br /><br />
+							<iframe src="github.php" height="380px"></iframe>
+						
+							<br /><br />
+							<img src="images/hopwork.png" alt="Hopwork" title="Hopwork" />
+							<br /><br />
+							<a data-width="320" data-style="clear" data-height="450" data-recos="false" data-tags="true" data-picture="true" data-id="54108917e4b0b60ccde7b79d" href="https://www.hopwork.com/profile/steevanbarboyon" class="hopwork_widget">Voir mon profil freelance</a>
+						</center>
+					</div>
+				</div>
+			</section>
             
             <footer id="footer" class="footer tCenter">
                 <div class="footerBottom ofsTSmall ofsBSmall">
@@ -496,6 +535,18 @@
         <script src="js/spectragram.min.js" type="text/javascript"></script>
         <script src="js/Placeholders.min.js" type="text/javascript"></script>
         <script src="js/script.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">  
+		  (function(d,id) {  
+			if (d.getElementById(id)) return;
+			var s = d.createElement('script');  
+			var c = d.getElementsByTagName('script')[0];  
+			s.type = 'text/javascript';  
+			s.async = true;  
+			s.src = 'https://widgets.hopwork.com/1.0.0/js/sdk.wgt.min.js';  
+			c.parentNode.insertBefore(s, c);  
+		   })(document,'hopwork-sdkjs-wgt');  
+		</script>
 		
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
