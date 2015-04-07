@@ -94,7 +94,7 @@
                                         </a>
                                     </li>
                                     <li class="link">
-                                        <a class="scroll" href="https://drive.google.com/open?id=0B0LunFLaCgfYVGdPVDA4SFdhUnc&authuser=0" target="_blank">
+                                        <a class="scroll" href="https://drive.google.com/open?id=1lGSXLFcJnzxXuN6Yb4GqYa7dZdW6ywh9WZZj4HorVwg&authuser=0" target="_blank">
                                             <img src="images/menus/download.png" /><br />
                                             Telecharger
                                         </a>
@@ -142,7 +142,7 @@
                                 <img alt="" src="images/profileImages/profileMedium.jpg">
                             </div>
 
-                            <a class="btnLaunch" href="https://drive.google.com/open?id=0B0LunFLaCgfYVGdPVDA4SFdhUnc&authuser=0" target="_blank">Telecharger mon cv</a>
+                            <a class="btnLaunch" href="https://drive.google.com/open?id=1lGSXLFcJnzxXuN6Yb4GqYa7dZdW6ywh9WZZj4HorVwg&authuser=0" target="_blank">Telecharger mon cv</a>
                         </div>
                     </div>
 
