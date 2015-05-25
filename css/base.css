@@ -22,6 +22,7 @@
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
 
+
 *, *:before, *:after {
     -moz-box-sizing: border-box;
 	-webkit-box-sizing :border-box;
@@ -38,7 +39,10 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline; 
-		text-decoration:none;}
+		text-decoration:none;
+        cursor: default;
+    }
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 
@@ -256,11 +260,15 @@ iframe{width:100%;frameborder:0;}
 	
 	
 	.innerIntro h1 span,  ul#category li a, .projTitle p, .postMeta span, .postMeta span a
-	, .postSingle blockquote, .itemDesc span, .postTitleL p, .tweets .tweet_list, .word h3 span, .word p, .det h3 span, .date span
+	, .postSingle blockquote, .itemDesc span, .postTitleL p, .tweets .tweet_list, .word h3 span, .word p, .det h3 span
 	, .rcgDet h3 span {
 		font-family: 'open_sanslight_italic', Arial, sans-serif;
 
 	}
+
+    .date span {
+        font-family: 'open_sanslight', Arial, sans-serif;
+    }
 	
 	
 	.innerIntro p .brand,  .rcgIntro p {

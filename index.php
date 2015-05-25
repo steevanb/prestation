@@ -307,6 +307,31 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
+                                    <h3>C2IS<span>  freelance</span> </h3>
+                                    <p>
+                                        Développement du site Relais&Chateaux, plate-forme de réservation en ligne de nuits dans des châteaux.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>2015</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 2.6</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PostGreSQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
                                     <h3>JAM Difus<span>  freelance</span> </h3>
                                     <p>
                                         Evolutions d'une plateforme d'e-commerce propriétaire, gérant 6 sites dans la vente de films adhésifs pour vitres.
@@ -314,6 +339,15 @@
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2015</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Framework PHP propriétaire</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git</span>
                                     </div>
                                 </div>
                             </div>
@@ -331,6 +365,12 @@
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2014 - 2015</span>
                                     </div>
+                                    <div class="date">
+                                        <span>Framework PHP propriétaire</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Oracle 11g</span>
+                                    </div>
                                 </div>
                             </div>
 
@@ -347,7 +387,15 @@
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2014</span>
-
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 2.4</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / git flow</span>
                                     </div>
                                 </div>
                             </div>
@@ -366,6 +414,15 @@
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2013</span>
                                     </div>
+                                    <div class="date">
+                                        <span>Symfony 2.3 / slim</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>HBase / MySQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / git flow</span>
+                                    </div>
                                 </div>
                             </div>
 
@@ -382,6 +439,15 @@
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>Depuis 2012</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Copix 3.1</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / git flow</span>
                                     </div>
                                 </div>
                             </div>
@@ -400,6 +466,15 @@
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2007 - 2011</span>
                                     </div>
+                                    <div class="date">
+                                        <span>Copix 3.1</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL / Oracle</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>SVN</span>
+                                    </div>
                                 </div>
                             </div>
 
@@ -417,6 +492,12 @@
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2006 - 2007</span>
                                     </div>
+                                    <div class="date">
+                                        <span>PHP 4</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL / Oracle / SQL Server</span>
+                                    </div>
                                 </div>
                             </div>
 
@@ -433,6 +514,12 @@
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2004 - 2006</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 4 / Spip</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL</span>
                                     </div>
                                 </div>
                             </div>
