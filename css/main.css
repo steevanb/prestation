@@ -563,16 +563,16 @@ h1.prfTitle span {
 
 
 .det .date {
-    background: #343434;
+    background: #C8C8C8;
     display: inline-block;
 	margin-top:15px;
 }
 .det .date span {
-    color: #ffffff;
+    color: black;
     float: right;
     font-size: 12px;
     padding: 4px 22px;
-    text-transform: uppercase;
+    height: 30px;
 }
 .det .date i {
     background:#37b0ac;
