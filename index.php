@@ -47,7 +47,7 @@
                         <li><img src="images/profileImages/profileLarge.jpg" class="slide" alt=""/>
                             <div class="caption">
                                 <h1>Steevan BARBOYON</h1>
-                                <p>Analyste développeur PHP depuis 2001, Symfony 2 depuis 2013</p>
+                                <p>Analyste développeur PHP depuis 2001, Symfony 2 depuis 2013, Symfony 3 depuis 2016</p>
                             </div>
                         </li>
                     </ul>
@@ -121,10 +121,10 @@
                         <br /><br />
                         <h1>Competences techniques</h1>
                         <ul>
-                            <li><span>Programmation</span> : PHP5, Symfony2, Copix, Delphi<li>
+                            <li><span>Programmation</span> : PHP5, Symfony2/3, Copix, Delphi<li>
                             <li><span>Base de données</span> : MySQL, Oracle, HBase</li>
                             <li><span>Intégration</span> : jQuery, Bootstrap3, HTML5, CSS3</li>
-                            <li><span>Outils</span> : git, git flow, composer, NetBeans, Eclipse</li>
+                            <li><span>Outils</span> : git, composer, PHPStorm, NetBeans, Eclipse</li>
                             <li><span>Autres</span> : Linux, scripts bash, admin serveur</li>
                         </ul>
                     </div>
@@ -134,7 +134,7 @@
                             <div class="introTitle">
                                 <h1 class="prfTitle">
                                     Steevan BARBOYON
-                                    <span>Analyste développeur PHP / Symfony2</span>
+                                    <span>Analyste développeur PHP / Symfony2/3</span>
                                 </h1>
                                 <img alt="" src="images/starL.png">
                             </div>
@@ -186,6 +186,13 @@
                                             <div class="skillbarTitle">PHP <span>depuis 2001</span></div>
                                             <div class="percentage graphic percent90"></div>
                                         </div>              
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Symfony 3 <span>depuis 2016</span></div>
+                                            <div class="percentage graphic percent70"></div>
+                                        </div>
                                     </div>
 
                                     <div class="skillBar">            
@@ -302,6 +309,34 @@
                 <div class="container clearfix">
                     <div class="twelve columns resumeDetails margHTop margHBottom">
                         <div class="employment">
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
+                                    <h3>Huttopia<span>  freelance</span> </h3>
+                                    <p>
+                                        Lead Dev d'une refonte de logiciel de gestion de campings en Symfony 2.8
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>2015 - en cours</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 2.8</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Docker 1.10</span>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="em clearfix">
                                 <div class="dtIco">
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>

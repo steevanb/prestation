@@ -272,6 +272,10 @@ header.base{
     float: left;
 }
 
+.nav li.link {
+    cursor: pointer;
+}
+
 .nav li.link a {
     padding-top: 25px;
 }
