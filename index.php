@@ -316,12 +316,15 @@
                                 <div class="det">
                                     <h3>Huttopia<span>  freelance</span> </h3>
                                     <p>
-                                        Lead Dev d'une refonte de logiciel de gestion de campings en Symfony 2.8.
+                                        Refonte du logiciel interne de gestion de campings en Symfony 2.8.
                                         Mise en place de l'architecture, choix techniques, formation de l'équipe interne.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2015 - en cours</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Lead dev</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 5.6</span>
@@ -355,6 +358,9 @@
                                         <span>2015</span>
                                     </div>
                                     <div class="date">
+                                        <span>Analyste développeur</span>
+                                    </div>
+                                    <div class="date">
                                         <span>PHP 5.5</span>
                                     </div>
                                     <div class="date">
@@ -381,6 +387,9 @@
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2015</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Analyste développeur</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 5.3</span>
@@ -411,6 +420,9 @@
                                         <span>2014 - 2015</span>
                                     </div>
                                     <div class="date">
+                                        <span>Référent technique</span>
+                                    </div>
+                                    <div class="date">
                                         <span>Framework PHP propriétaire</span>
                                     </div>
                                     <div class="date">
@@ -433,6 +445,9 @@
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2014</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Référent technique</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 5.4</span>
@@ -464,6 +479,9 @@
                                         <span>2013</span>
                                     </div>
                                     <div class="date">
+                                        <span>Lead dev</span>
+                                    </div>
+                                    <div class="date">
                                         <span>PHP 5.4</span>
                                     </div>
                                     <div class="date">
@@ -489,11 +507,14 @@
                                         Création du logiciel de gestion ADJ : dossier médical, agenda des présences, comptabilité, statistiques officielles etc.
                                     </p>
                                     <div class="date">
-                                        <span>PHP 5.3</span>
-                                    </div>
-                                    <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>Depuis 2012</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Gestion de projet / développement</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 5.3</span>
                                     </div>
                                     <div class="date">
                                         <span>Copix 3.1</span>
@@ -520,6 +541,9 @@
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2007 - 2011</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>analyste développeur</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 5.2</span>
@@ -551,6 +575,9 @@
                                         <span>2006 - 2007</span>
                                     </div>
                                     <div class="date">
+                                        <span>analyste développeur</span>
+                                    </div>
+                                    <div class="date">
                                         <span>PHP 4</span>
                                     </div>
                                     <div class="date">
@@ -572,6 +599,9 @@
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2004 - 2006</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>analyste développeur</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 4 / Spip</span>
