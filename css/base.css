@@ -43,6 +43,13 @@
         cursor: default;
     }
 
+    a {
+        cursor: pointer;
+    }
+    a img {
+        cursor: pointer !important;
+    }
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 
@@ -85,7 +92,7 @@ iframe{width:100%;frameborder:0;}
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #ffffff;
+		background: #f3f3f3;
 		font: 14px/21px 'open_sans', Arial, sans-serif;
 		color: #999999;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -127,7 +134,7 @@ iframe{width:100%;frameborder:0;}
 	}
 	
 	.tgreyHolder .bigTitle img {
-	    background:#f4f4f4;
+	    background:#DCDCDC;
 	}
 	
 	
@@ -368,7 +375,7 @@ iframe{width:100%;frameborder:0;}
 	.margHTop{margin-top:100px !important;}
 	.singleOffset{margin-top:150px !important;}
 	.blogSingle.singleOffset {margin-top: 64px !important;}
-	.bgGrey{background:#f3f3f3;}
+	.bgGrey{background:#dcdcdc;}
 	.bgGreyDark{background:#343434;}
 	.bgGreen{background:#4ac2be;}
 	.bgGreenDark{background:#3eafab;}

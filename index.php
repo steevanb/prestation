@@ -47,7 +47,7 @@
                         <li><img src="images/profileImages/profileLarge.jpg" class="slide" alt=""/>
                             <div class="caption">
                                 <h1>Steevan BARBOYON</h1>
-                                <p>Analyste développeur PHP depuis 2001, Symfony 2 depuis 2013, Symfony 3 depuis 2016</p>
+                                <p>Analyste développeur PHP depuis 2001<br>Symfony 2 depuis 2013, Symfony 3 depuis 2016</p>
                             </div>
                         </li>
                     </ul>
@@ -121,10 +121,10 @@
                         <br /><br />
                         <h1>Competences techniques</h1>
                         <ul>
-                            <li><span>Programmation</span> : PHP5, Symfony2/3, Copix, Delphi<li>
+                            <li><span>Programmation</span> : PHP7, Symfony3, Copix, Delphi<li>
                             <li><span>Base de données</span> : MySQL, Oracle, HBase</li>
                             <li><span>Intégration</span> : jQuery, Bootstrap3, HTML5, CSS3</li>
-                            <li><span>Outils</span> : git, composer, PHPStorm, NetBeans, Eclipse</li>
+                            <li><span>Outils</span> : git, composer, PHPStorm, PHPUnit</li>
                             <li><span>Autres</span> : Linux, scripts bash, admin serveur</li>
                         </ul>
                     </div>
@@ -134,7 +134,7 @@
                             <div class="introTitle">
                                 <h1 class="prfTitle">
                                     Steevan BARBOYON
-                                    <span>Analyste développeur PHP / Symfony2/3</span>
+                                    <span>Analyste développeur PHP7 / Symfony3</span>
                                 </h1>
                                 <img alt="" src="images/starL.png">
                             </div>
@@ -191,7 +191,7 @@
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Symfony 3 <span>depuis 2016</span></div>
-                                            <div class="percentage graphic percent70"></div>
+                                            <div class="percentage graphic percent80"></div>
                                         </div>
                                     </div>
 
@@ -316,7 +316,7 @@
                                 <div class="det">
                                     <h3>Huttopia<span>  freelance</span> </h3>
                                     <p>
-                                        Refonte du logiciel interne de gestion de campings en Symfony 2.8.
+                                        Refonte du logiciel interne de gestion de campings en Symfony.
                                         Mise en place de l'architecture, choix techniques, formation de l'équipe interne.
                                     </p>
                                     <div class="date">
@@ -327,19 +327,16 @@
                                         <span>Lead dev</span>
                                     </div>
                                     <div class="date">
-                                        <span>PHP 5.6</span>
+                                        <span>PHP 7.1</span>
                                     </div>
                                     <div class="date">
-                                        <span>Symfony 2.8</span>
+                                        <span>Symfony 3.2</span>
                                     </div>
                                     <div class="date">
-                                        <span>Docker 1.10</span>
+                                        <span>MySQL 5.7</span>
                                     </div>
                                     <div class="date">
-                                        <span>MySQL 5.6</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>git / GitLab</span>
+                                        <span>git / github</span>
                                     </div>
                                 </div>
                             </div>
@@ -351,7 +348,7 @@
                                 <div class="det">
                                     <h3>C2IS<span>  freelance</span> </h3>
                                     <p>
-                                        Développement du site Relais&Chateaux, plate-forme de réservation en ligne de nuits dans des châteaux.
+                                        Développement du site <a href="https://www.relaischateaux.com" target="_blank">Relais&Chateaux</a>, plate-forme de réservation en ligne de nuits dans des châteaux.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
@@ -710,7 +707,7 @@
         <script src="js/spectragram.min.js" type="text/javascript"></script>
         <script src="js/Placeholders.min.js" type="text/javascript"></script>
         <script src="js/script.js" type="text/javascript"></script>
-		
+
 		<script type="text/javascript">  
 		  (function(d,id) {  
 			if (d.getElementById(id)) return;

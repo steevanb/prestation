@@ -1,0 +1,27 @@
+body {
+    background-color: #F3F3F3;
+    cursor: default;
+    margin: 10px;
+}
+
+.stat-left {
+    border: solid 1px #bfbfbf;
+    padding: 3px 3px 3px 7px;
+    border-radius: 3px 0 0 3px;
+}
+
+.stat-right {
+    border-top: solid 1px #bfbfbf;
+    border-right: solid 1px #bfbfbf;
+    border-bottom: solid 1px #bfbfbf;
+    padding: 3px 5px 3px 5px;
+    border-radius: 0px 3px 3px 0;
+}
+
+.stats-separator {
+    margin-top: 15px;
+}
+
+.panel-default .panel-heading {
+    background-color: #e2e2e2;
+}

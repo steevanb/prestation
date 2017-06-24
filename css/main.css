@@ -208,8 +208,8 @@ opacity:0.1}
 
 .caption p {
     color: #ffffff;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 26px;
     margin-top: 20px;
     padding: 0 500px;
     text-transform: uppercase;
@@ -256,7 +256,7 @@ header.base{
 
 .switchedHeader {
     position: fixed;
-	background: rgba(222, 222, 222, 0.90);
+	background: rgba(200, 200, 200, 0.90);
 	left:0;
 	top:0;
 }
@@ -317,7 +317,7 @@ header.base{
 }
 
 .switchedHeader .mainNav li a  {
-    color: #999999 !important;
+    color: #ffffff !important;
 }
 
 
@@ -733,7 +733,7 @@ h1.prfTitle span {
 
 
 .skillbarHolder {
-    background-color: #efefef;
+    background-color: #e2e1e1;
     height: 15px;
     position: relative;
 }

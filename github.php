@@ -1,3 +1,21 @@
+<?php
+try {
+    require('vendor/autoload.php');
+
+    $client = new Packagist\Api\Client();
+
+    $downloads = [];
+    $downloads = 0;
+    $repositories = 0;
+    /** @var Packagist\Api\Result\Result $result */
+    foreach ($client->search('steevanb') as $result) {
+        $repositories++;
+        $downloads += $result->getDownloads();
+    }
+} catch (\Exception $e) {
+    $downloads = null;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -9,6 +27,7 @@
 
 		<!-- Bootstrap -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/github.css" rel="stylesheet" />
 		
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +40,7 @@
 		<div
 			data-toggle="github-widget"
 			data-user="steevanb"
-			data-title="<a href='https://github.com/steevanb' target='_blank'>github.com/steevanb<a>"
+			data-title="<a href='https://github.com/steevanb' target='_blank'>github.com/steevanb</a> - <?=$repositories?> dépôts - <?php echo number_format($downloads, 0, ',', ' ') ?> téléchargements"
 		></div>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
