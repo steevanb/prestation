@@ -9,8 +9,10 @@ try {
     $repositories = 0;
     /** @var Packagist\Api\Result\Result $result */
     foreach ($client->search('steevanb') as $result) {
-        $repositories++;
-        $downloads += $result->getDownloads();
+        if (substr($result->getName(), 0, 9) === 'steevanb/') {
+            $repositories++;
+            $downloads += $result->getDownloads();
+        }
     }
 } catch (\Exception $e) {
     $downloads = null;

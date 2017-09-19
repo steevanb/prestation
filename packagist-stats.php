@@ -9,9 +9,11 @@ $client = new Packagist\Api\Client();
 
 $downloads = 0;
 /** @var Result $repository */
-foreach ($client->search('steevanb') as $repository) {
-    $downloads += $repository->getDownloads();
-    $repositories[] = $client->get($repository->getName());
+foreach ($client->search('steevanb') as $toto => $repository) {
+    if (substr($repository->getName(), 0, 9) === 'steevanb/') {
+        $downloads += $repository->getDownloads();
+        $repositories[] = $client->get($repository->getName());
+    }
 }
 usort($repositories, function(Package $repository1, Package $repository2) {
     return $repository1->getDownloads() < $repository2->getDownloads() ? 1 : -1;
