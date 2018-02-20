@@ -5,7 +5,7 @@
         <meta name="author" content="Steevan BARBOYON" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <title>Steevan BARBOYON, freelance PHP / Symfony2</title>
+        <title>Steevan BARBOYON, freelance PHP 7 / Symfony 4</title>
 
         <!--Stylesheet-->
         <!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
@@ -47,7 +47,7 @@
                         <li><img src="images/profileImages/profileLarge.jpg" class="slide" alt=""/>
                             <div class="caption">
                                 <h1>Steevan BARBOYON</h1>
-                                <p>Analyste développeur PHP depuis 2001<br>Symfony 2 depuis 2013, Symfony 3 depuis 2016</p>
+                                <p>Analyste développeur PHP depuis 2001<br>Symfony depuis 2013</p>
                             </div>
                         </li>
                     </ul>
@@ -121,7 +121,7 @@
                         <br /><br />
                         <h1>Competences techniques</h1>
                         <ul>
-                            <li><span>Programmation</span> : PHP7, Symfony3, Copix, Delphi<li>
+                            <li><span>Programmation</span> : PHP7, Symfony4, Copix, Delphi<li>
                             <li><span>Base de données</span> : MySQL, Oracle, HBase</li>
                             <li><span>Intégration</span> : jQuery, Bootstrap3, HTML5, CSS3</li>
                             <li><span>Outils</span> : git, composer, PHPStorm, PHPUnit</li>
@@ -190,15 +190,22 @@
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Symfony 3 <span>depuis 2016</span></div>
+                                            <div class="skillbarTitle">Symfony 4 <span>depuis 2017</span></div>
                                             <div class="percentage graphic percent80"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Symfony 3 <span>depuis 2016</span></div>
+                                            <div class="percentage graphic percent90"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Symfony 2 <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent80"></div>
+                                            <div class="percentage graphic percent90"></div>
                                         </div>              
                                     </div>
 									
@@ -229,14 +236,14 @@
 									<div class="skillBar">            
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">MySQL <span>depuis 2001</span></div>
-                                            <div class="percentage progra percent90"></div>
+                                            <div class="percentage progra percent80"></div>
                                         </div>              
                                     </div>
 
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Oracle <span>depuis 2006</span></div>
-                                            <div class="percentage progra percent70"></div>
+                                            <div class="percentage progra percent60"></div>
                                         </div>              
                                     </div>
 
@@ -257,7 +264,7 @@
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">SQL Server <span>2006 - 2007</span></div>
-                                            <div class="percentage progra percent60"></div>
+                                            <div class="percentage progra percent50"></div>
                                         </div>              
                                     </div>
 								</div>
@@ -287,7 +294,7 @@
                                     
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Admin serveur Apache2 - PHP <span>depuis 2010</span></div>
+                                            <div class="skillbarTitle">Admin serveur Apache2/nginx - PHP <span>depuis 2010</span></div>
                                             <div class="percentage graphic percent80"></div>
                                         </div>              
                                     </div>
@@ -314,6 +321,38 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
+                                    <h3>PHP Benchmarks<span>  freelance</span> </h3>
+                                    <p>
+                                        Développement du site <a href="http://www.phpbenchmarks.com" target="_blank">PHP Benchmarks</a>
+                                        , création des benchmarks pour PHP et divers frameworks, API
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>2017 - 2018</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Créateur</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 7.2</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 4.0</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL 5.7</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / github</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
                                     <h3>Huttopia<span>  freelance</span> </h3>
                                     <p>
                                         Refonte du logiciel interne de gestion de campings en Symfony.
@@ -321,16 +360,16 @@
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>2015 - en cours</span>
+                                        <span>2015 - 2017</span>
                                     </div>
                                     <div class="date">
                                         <span>Lead dev</span>
                                     </div>
                                     <div class="date">
-                                        <span>PHP 7.1</span>
+                                        <span>PHP 7.2</span>
                                     </div>
                                     <div class="date">
-                                        <span>Symfony 3.2</span>
+                                        <span>Symfony 3.4</span>
                                     </div>
                                     <div class="date">
                                         <span>MySQL 5.7</span>
