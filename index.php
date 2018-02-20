@@ -366,7 +366,7 @@
                                         <span>Lead dev</span>
                                     </div>
                                     <div class="date">
-                                        <span>PHP 7.2</span>
+                                        <span>PHP 7.1</span>
                                     </div>
                                     <div class="date">
                                         <span>Symfony 3.4</span>
