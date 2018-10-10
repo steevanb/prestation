@@ -291,6 +291,13 @@
                                             <div class="percentage graphic percent80"></div>
                                         </div>              
                                     </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Docker <span>depuis 2015</span></div>
+                                            <div class="percentage graphic percent50"></div>
+                                        </div>
+                                    </div>
                                     
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
@@ -321,23 +328,95 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>PHP Benchmarks<span>  freelance</span> </h3>
+                                    <h3>Sensio - EkoSport<span>  freelance analyste développeur</span> </h3>
                                     <p>
-                                        Développement du site <a href="http://www.phpbenchmarks.com" target="_blank">PHP Benchmarks</a>
-                                        , création des benchmarks pour PHP et divers frameworks, API
+                                        Développement d'un CMS, refonte de la dette technique, migration Symfony 3.4 - 4.1, mise en place de tests.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>2017 - 2018</span>
+                                        <span>Mai 2018 - Octobre 2018</span>
                                     </div>
                                     <div class="date">
-                                        <span>Créateur</span>
+                                        <span>Référent technique</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 7.2</span>
                                     </div>
                                     <div class="date">
-                                        <span>Symfony 4.0</span>
+                                        <span>Migration Symfony 3.4 - 4.1</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 4.1</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Redis</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>ElasticSearch</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PostGreSQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / gitlab</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
+                                    <h3>KissTheBride<span>  freelance lead développeur</span> </h3>
+                                    <p>
+                                        Reprise d'un logiciel de rewarding, refonte de la dette technique, rédaction de specs techniques,
+                                        développement.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>Mars 2018 - Mai 2018</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 7.2</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 3.4</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>graphQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL 5.7</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / gitlab</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
+                                    <h3>PHP Benchmarks<span>  création du projet</span> </h3>
+                                    <p>
+                                        Création du site <a href="http://www.phpbenchmarks.com" target="_blank">PHP Benchmarks</a>
+                                        , génération des benchmarks pour PHP et divers frameworks (Symfony, Laravel, Zend Framework etc), API REST.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>Depuis 2017</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 7.2</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Migration Symfony 3.4 - 4.0</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 4.1</span>
                                     </div>
                                     <div class="date">
                                         <span>MySQL 5.7</span>
@@ -353,7 +432,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Huttopia<span>  freelance</span> </h3>
+                                    <h3>Huttopia<span>  freelance lead développeur</span> </h3>
                                     <p>
                                         Refonte du logiciel interne de gestion de campings en Symfony.
                                         Mise en place de l'architecture, choix techniques, formation de l'équipe interne.
@@ -361,9 +440,6 @@
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2015 - 2017</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>Lead dev</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 7.1</span>
@@ -385,16 +461,13 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>C2IS<span>  freelance</span> </h3>
+                                    <h3>C2IS<span>  freelance analyste développeur</span> </h3>
                                     <p>
                                         Développement du site <a href="https://www.relaischateaux.com" target="_blank">Relais&Chateaux</a>, plate-forme de réservation en ligne de nuits dans des châteaux.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2015</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>Analyste développeur</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 5.5</span>
@@ -416,16 +489,13 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>JAM Difus<span>  freelance</span> </h3>
+                                    <h3>JAM Difus<span>  freelance analyste développeur</span> </h3>
                                     <p>
                                         Evolutions d'une plateforme d'e-commerce propriétaire, gérant 6 sites dans la vente de films adhésifs pour vitres.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2015</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>Analyste développeur</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 5.3</span>
@@ -447,7 +517,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Jacquet Metals<span>  freelance</span> </h3>
+                                    <h3>Jacquet Metals<span>  freelance analyste développeur</span> </h3>
                                     <p>
                                         Renfort d'une équipe de 15 développeurs PHP sur un ERP international gérant l'achat, la vente et les stocks de plaques de métal.
                                     </p>
@@ -473,7 +543,7 @@
                                     </span>
                                 </div>
                                 <div class="det">
-                                    <h3>Kreactive - Digischool<span>  freelance</span> </h3>
+                                    <h3>Kreactive - Digischool<span>  freelance analyste développeur</span> </h3>
                                     <p>
                                         Référent technique Symfony2, analyse du cahier des charges, analyse technique et développement
                                         d'un projet d'annuaire de cours en ligne, en partenariat avec LeMonde.
@@ -506,16 +576,13 @@
                                     </span>
                                 </div>
                                 <div class="det">
-                                    <h3>Gamned - Makazi<span>  freelance</span> </h3>
+                                    <h3>Gamned - Makazi<span>  freelance lead développeur</span> </h3>
                                     <p>
                                         Création d'un outil de statistiques avancées sur des affichages publicitaires et des envois de mail.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2013</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>Lead dev</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 5.4</span>
@@ -538,7 +605,7 @@
                                     </span>
                                 </div>
                                 <div class="det">
-                                    <h3>Accueils de jour<span>  freelance</span> </h3>
+                                    <h3>Accueils de jour<span>  création du projet</span> </h3>
                                     <p>
                                         Création du logiciel de gestion ADJ : dossier médical, agenda des présences, comptabilité, statistiques officielles etc.
                                     </p>
@@ -579,9 +646,6 @@
                                         <span>2007 - 2011</span>
                                     </div>
                                     <div class="date">
-                                        <span>analyste développeur</span>
-                                    </div>
-                                    <div class="date">
                                         <span>PHP 5.2</span>
                                     </div>
                                     <div class="date">
@@ -611,9 +675,6 @@
                                         <span>2006 - 2007</span>
                                     </div>
                                     <div class="date">
-                                        <span>analyste développeur</span>
-                                    </div>
-                                    <div class="date">
                                         <span>PHP 4</span>
                                     </div>
                                     <div class="date">
@@ -635,9 +696,6 @@
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>2004 - 2006</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>analyste développeur</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 4 / Spip</span>
