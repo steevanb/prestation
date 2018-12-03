@@ -1,6 +1,6 @@
 <?php
 try {
-    require('vendor/autoload.php');
+    require('../vendor/autoload.php');
 
     $client = new Packagist\Api\Client();
 

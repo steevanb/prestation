@@ -47,7 +47,12 @@
                         <li><img src="images/profileImages/profileLarge.jpg" class="slide" alt=""/>
                             <div class="caption">
                                 <h1>Steevan BARBOYON</h1>
-                                <p>Analyste développeur PHP depuis 2001<br>Symfony depuis 2013</p>
+                                <p>
+                                    Analyste développeur depuis 2001
+                                    <br>Lead développeur depuis 2015
+                                    <br>PHP depuis 2004
+                                    <br>Symfony depuis 2013
+                                </p>
                             </div>
                         </li>
                     </ul>
@@ -119,30 +124,27 @@
                         </p>
 
                         <br /><br />
-                        <h1>Competences techniques</h1>
+                        <h1>Compétences techniques</h1>
                         <ul>
-                            <li><span>Programmation</span> : PHP7, Symfony4, Copix, Delphi<li>
-                            <li><span>Base de données</span> : MySQL, Oracle, HBase</li>
-                            <li><span>Intégration</span> : jQuery, Bootstrap3, HTML5, CSS3</li>
-                            <li><span>Outils</span> : git, composer, PHPStorm, PHPUnit</li>
-                            <li><span>Autres</span> : Linux, scripts bash, admin serveur</li>
+                            <li><span>Programmation</span> : PHP 5/7, Symfony 2/3/4, API REST, GraphQL, PHPUnit<li>
+                            <li><span>Base de données</span> : MySQL, Oracle, PostGreSQL, SQL Server, ElasticSearch</li>
+                            <li><span>Intégration</span> : jQuery, Bootstrap3, HTML5, CSS3, Twig, webpack</li>
+                            <li><span>Outils</span> : git, Composer, PHPStorm</li>
+                            <li><span>Admin</span> : Linux, scripts bash, Ansible, Docker, build de projet</li>
                         </ul>
                     </div>
 
                     <div class="one-third column column-small profile tCenter bgGreyDark">
                         <div class="innerProfile ">
                             <div class="introTitle">
-                                <h1 class="prfTitle">
-                                    Steevan BARBOYON
-                                    <span>Analyste développeur PHP7 / Symfony3</span>
-                                </h1>
+                                <h1 class="prfTitle">Steevan BARBOYON</h1>
                                 <img alt="" src="images/starL.png">
                             </div>
                             <div class="imgProfile">
                                 <img alt="" src="images/profileImages/profileMedium.jpg">
                             </div>
 
-                            <a class="btnLaunch" href="https://drive.google.com/open?id=1lGSXLFcJnzxXuN6Yb4GqYa7dZdW6ywh9WZZj4HorVwg&authuser=0" target="_blank">Telecharger mon cv</a>
+                            <a class="btnLaunch" href="https://drive.google.com/open?id=1lGSXLFcJnzxXuN6Yb4GqYa7dZdW6ywh9WZZj4HorVwg&authuser=0" target="_blank">Telecharger mon CV</a>
                         </div>
                     </div>
 
@@ -161,7 +163,7 @@
                             <li><span>SIREN</span> : 807 949 961</li>
                             <li><span>Création</span> : 30/07/2010</li>
                             <li><span>Site</span> : <a href="http://www.info-droid.fr" target="_blank">www.info-droid.fr</a></li>
-							<li><span>Adresse</span> : 87 cours du docteur Long, 69 003 Lyon
+							<li><span>Adresse</span> : 87 cours du docteur Long, 69003 Lyon
                         </ul>
                     </div>
                 </div>
@@ -171,7 +173,7 @@
 				<div class="skills ofsTop ">
 					<div class="tgreyHolder bgGrey ofsTMedium">
                         <div class="bigTitle ">
-                            <h1>Mes competences et expertises techniques</h1>
+                            <h1>Mes compztences et expertises techniques</h1>
                             <img src="images/star.png" alt="">
                         </div>
                     </div>
@@ -183,51 +185,37 @@
 								<div class="skillInner">
 									<div class="skillBar">            
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">PHP <span>depuis 2001</span></div>
+                                            <div class="skillbarTitle">PHP <span>depuis 2004</span></div>
                                             <div class="percentage graphic percent90"></div>
                                         </div>              
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Symfony 4 <span>depuis 2017</span></div>
+                                            <div class="skillbarTitle">Symfony 2/3/4 <span>depuis 2013</span></div>
                                             <div class="percentage graphic percent80"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Symfony 3 <span>depuis 2016</span></div>
-                                            <div class="percentage graphic percent90"></div>
+                                            <div class="skillbarTitle">API REST <span>depuis 2013</span></div>
+                                            <div class="percentage graphic percent80"></div>
                                         </div>
                                     </div>
 
-                                    <div class="skillBar">            
+                                    <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Symfony 2 <span>depuis 2013</span></div>
+                                            <div class="skillbarTitle">GraphQL <span>depuis 2018</span></div>
+                                            <div class="percentage graphic percent80"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">PHPUnit <span>depuis 2013</span></div>
                                             <div class="percentage graphic percent90"></div>
-                                        </div>              
-                                    </div>
-									
-									<div class="skillBar">            
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Scripts bash <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent40"></div>
-                                        </div>              
-                                    </div>
-									
-									<div class="skillBar">            
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Copix (framewor PHP) <span>depuis 2007</span></div>
-                                            <div class="percentage graphic percent95"></div>
-                                        </div>              
-                                    </div>
-                                    
-                                    <div class="skillBar">            
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Delphi <span>2001 - 2005</span></div>
-                                            <div class="percentage graphic percent40"></div>
-                                        </div>              
+                                        </div>
                                     </div>
 								</div>
                                 
@@ -235,28 +223,21 @@
 								<div class="skillInner">
 									<div class="skillBar">            
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">MySQL <span>depuis 2001</span></div>
-                                            <div class="percentage progra percent80"></div>
+                                            <div class="skillbarTitle">MySQL <span>depuis 2004</span></div>
+                                            <div class="percentage progra percent90"></div>
                                         </div>              
                                     </div>
 
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Oracle <span>depuis 2006</span></div>
+                                            <div class="skillbarTitle">Oracle <span>2006 - 2008</span></div>
                                             <div class="percentage progra percent60"></div>
                                         </div>              
                                     </div>
 
-                                    <div class="skillBar">            
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">HBase <span>2013</span></div>
-                                            <div class="percentage progra percent40"></div>
-                                        </div>              
-                                    </div>
-									
 									<div class="skillBar">            
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">PostGre <span>depuis 2015</span></div>
+                                            <div class="skillbarTitle">PostGreSQL <span>depuis 2015</span></div>
                                             <div class="percentage progra percent50"></div>
                                         </div>              
                                     </div>
@@ -264,8 +245,15 @@
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">SQL Server <span>2006 - 2007</span></div>
-                                            <div class="percentage progra percent50"></div>
+                                            <div class="percentage progra percent60"></div>
                                         </div>              
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">ElasticSearch <span>depuis 2018</span></div>
+                                            <div class="percentage progra percent50"></div>
+                                        </div>
                                     </div>
 								</div>
                                 
@@ -273,37 +261,51 @@
 								<div class="skillInner">
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Git et git flow <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent90"></div>
+                                            <div class="skillbarTitle">Git <span>depuis 2013</span></div>
+                                            <div class="percentage graphic percent80"></div>
                                         </div>              
                                     </div>
                                     
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">composer <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent95"></div>
+                                            <div class="skillbarTitle">Composer <span>depuis 2013</span></div>
+                                            <div class="percentage graphic percent90"></div>
                                         </div>              
                                     </div>
                                     
 									<div class="skillBar">            
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Linux (Debian, Ubuntu) <span>depuis 2009</span></div>
-                                            <div class="percentage graphic percent80"></div>
+                                            <div class="skillbarTitle">Linux <span>depuis 2009</span></div>
+                                            <div class="percentage graphic percent60"></div>
                                         </div>              
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Docker <span>depuis 2015</span></div>
+                                            <div class="skillbarTitle">Admin serveur <span>depuis 2010</span></div>
+                                            <div class="percentage graphic percent60"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Ansible <span>depuis 2018</span></div>
                                             <div class="percentage graphic percent50"></div>
                                         </div>
                                     </div>
-                                    
-                                    <div class="skillBar">            
+
+                                    <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Admin serveur Apache2/nginx - PHP <span>depuis 2010</span></div>
-                                            <div class="percentage graphic percent80"></div>
-                                        </div>              
+                                            <div class="skillbarTitle">Docker <span>depuis 2015</span></div>
+                                            <div class="percentage graphic percent60"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Build de projet <span>depuis 2015</span></div>
+                                            <div class="percentage graphic percent70"></div>
+                                        </div>
                                     </div>
 								</div>
 							</div>
@@ -328,7 +330,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Sensio - EkoSport<span>  freelance analyste développeur</span> </h3>
+                                    <h3>Sensio - EkoSport<span>  freelance référent technique</span> </h3>
                                     <p>
                                         Développement d'un CMS, refonte de la dette technique, migration Symfony 3.4 - 4.1, mise en place de tests.
                                     </p>
@@ -402,8 +404,8 @@
                                 <div class="det">
                                     <h3>PHP Benchmarks<span>  création du projet</span> </h3>
                                     <p>
-                                        Création du site <a href="http://www.phpbenchmarks.com" target="_blank">PHP Benchmarks</a>
-                                        , génération des benchmarks pour PHP et divers frameworks (Symfony, Laravel, Zend Framework etc), API REST.
+                                        Création du site <a href="http://www.phpbenchmarks.com" target="_blank">PHP Benchmarks</a>,
+                                        génération des benchmarks pour PHP et divers frameworks (Symfony, Laravel, Zend Framework etc), API REST.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>

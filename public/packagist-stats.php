@@ -3,7 +3,7 @@
 use Packagist\Api\Result\Result;
 use Packagist\Api\Result\Package;
 
-require('vendor/autoload.php');
+require('../vendor/autoload.php');
 
 $client = new Packagist\Api\Client();
 
