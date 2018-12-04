@@ -16,6 +16,8 @@ execCmd "docker-compose ps"
 
 addHost "prestation.loc"
 
-echo -e "Everything is started, you can go to \e[4mhttp://prestation.loc\e[0m."
+echo -en "\033[42m\033[1;37m Everything is started. \033[0m\n"
+echo -e "url: \e[4mhttp://prestation.loc:8083\e[0m"
+echo "nginx port: 8083"
 
 source "$(dirname $0)/docker-web-bash.sh"
