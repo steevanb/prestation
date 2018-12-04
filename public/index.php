@@ -173,7 +173,7 @@
 				<div class="skills ofsTop ">
 					<div class="tgreyHolder bgGrey ofsTMedium">
                         <div class="bigTitle ">
-                            <h1>Mes compztences et expertises techniques</h1>
+                            <h1>Mes competences et expertises techniques</h1>
                             <img src="images/star.png" alt="">
                         </div>
                     </div>
