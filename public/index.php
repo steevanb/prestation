@@ -330,7 +330,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Wizaplace<span>  lead dev / architecte technique</span> </h3>
+                                    <h3>Wizaplace<span>  freelance lead dev et architecte technique</span> </h3>
                                     <p>
                                         Lead dev d'une équipe de 10 développeurs.
                                         Analyse et mise en place d'une architecture microsservices.
@@ -339,7 +339,7 @@
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>janvier 2019 - Août 2019</span>
+                                        <span>Janvier 2019 - Août 2019</span>
                                     </div>
                                     <div class="date">
                                         <span>Lead dev - architecte technique</span>
