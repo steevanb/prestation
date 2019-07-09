@@ -67,7 +67,7 @@
                             
                             <nav class="mainNav" >
                                 <ul>
-                                    <li><img src="images/menus/avatar.png" alt="Avatar" title="Non c'est pas mon chat" /></li>
+                                    <li><img src="images/menus/avatar.png" alt="Avatar" title="Non ce n'est pas mon chat ;)" /></li>
                                     <li class="link">
                                         <a class="scroll" href="#skills">
                                             <img src="images/menus/skills.png" /><br />
@@ -193,7 +193,7 @@
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Symfony 2/3/4 <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent80"></div>
+                                            <div class="percentage graphic percent90"></div>
                                         </div>
                                     </div>
 
@@ -207,14 +207,14 @@
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">GraphQL <span>depuis 2018</span></div>
-                                            <div class="percentage graphic percent80"></div>
+                                            <div class="percentage graphic percent70"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">PHPUnit <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent90"></div>
+                                            <div class="percentage graphic percent80"></div>
                                         </div>
                                     </div>
 								</div>
@@ -255,6 +255,13 @@
                                             <div class="percentage progra percent50"></div>
                                         </div>
                                     </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">MongoDB <span>depuis 2019</span></div>
+                                            <div class="percentage progra percent30"></div>
+                                        </div>
+                                    </div>
 								</div>
                                 
                                 <br /><br /><br /><br /><br />
@@ -276,7 +283,7 @@
 									<div class="skillBar">            
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Linux <span>depuis 2009</span></div>
-                                            <div class="percentage graphic percent60"></div>
+                                            <div class="percentage graphic percent70"></div>
                                         </div>              
                                     </div>
 
@@ -289,22 +296,15 @@
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Ansible <span>depuis 2018</span></div>
-                                            <div class="percentage graphic percent50"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
                                             <div class="skillbarTitle">Docker <span>depuis 2015</span></div>
-                                            <div class="percentage graphic percent60"></div>
+                                            <div class="percentage graphic percent70"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Build de projet <span>depuis 2015</span></div>
-                                            <div class="percentage graphic percent70"></div>
+                                            <div class="skillbarTitle">CircleCI <span>depuis 2019</span></div>
+                                            <div class="percentage graphic percent60"></div>
                                         </div>
                                     </div>
 								</div>
@@ -330,9 +330,49 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
+                                    <h3>Wizaplace<span>  lead dev / architecte technique</span> </h3>
+                                    <p>
+                                        Lead dev d'une équipe de 10 développeurs.
+                                        Analyse et mise en place d'une architecture microsservices.
+                                        Intégration de CircleCI avec phpcs, phpstan, phpunit etc.
+                                        Mise en place d'une intégration continue.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>janvier 2019 - Août 2019</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Lead dev - architecte technique</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 7.3</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Architecture microservices</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 4.3</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Redis</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MongoDB</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / github</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
                                     <h3>Sensio - EkoSport<span>  freelance référent technique</span> </h3>
                                     <p>
-                                        Développement d'un CMS, refonte de la dette technique, migration Symfony 3.4 - 4.1, mise en place de tests.
+                                        Développement d'un CMS. Refonte de la dette technique. Migration Symfony 3.4 vers 4.1. Mise en place de tests.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
@@ -372,8 +412,7 @@
                                 <div class="det">
                                     <h3>KissTheBride<span>  freelance lead développeur</span> </h3>
                                     <p>
-                                        Reprise d'un logiciel de rewarding, refonte de la dette technique, rédaction de specs techniques,
-                                        développement.
+                                        Reprise d'un logiciel de rewarding. Refonte de la dette technique. Rédaction de specs techniques. Développement.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
@@ -404,8 +443,9 @@
                                 <div class="det">
                                     <h3>PHP Benchmarks<span>  création du projet</span> </h3>
                                     <p>
-                                        Création du site <a href="http://www.phpbenchmarks.com" target="_blank">PHP Benchmarks</a>,
-                                        génération des benchmarks pour PHP et divers frameworks (Symfony, Laravel, Zend Framework etc), API REST.
+                                        Création du site <a href="http://www.phpbenchmarks.com" target="_blank">PHP Benchmarks</a>.
+                                        Génération des benchmarks pour PHP et divers frameworks (Symfony, Laravel, Zend Framework etc).
+                                        Intégration de CircleCI avec phpcs, phpstan, phpunit etc.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
