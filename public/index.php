@@ -49,9 +49,10 @@
                                 <h1>Steevan BARBOYON</h1>
                                 <p>
                                     Analyste développeur depuis 2001
-                                    <br>Lead développeur depuis 2015
                                     <br>PHP depuis 2004
                                     <br>Symfony depuis 2013
+                                    <br>Lead développeur Symfony depuis 2015
+                                    <br>Architecte technique Symfony depuis 2019
                                 </p>
                             </div>
                         </li>
@@ -116,21 +117,19 @@
                     <div class="one-third column intro">
                         <h1>A propos de moi</h1>
                         <p>
-                            Découverte de la programmation en 2001, orientation vers PHP en 2004.
-                            <br />
-                            BTS Informatique de gestion en 2006 en alternance, suivi de 5 ans de CDI (Arawak, Alptis Assurances).
-                            <br />
-                            Freelance depuis 2011.
+                            J'ai découvert la programmation en 2001 et je m'oriente vers de l'architecture technique depuis 2019.
+                            <br>
+                            Je suis freelance depuis 2011.
                         </p>
 
                         <br /><br />
                         <h1>Compétences techniques</h1>
                         <ul>
-                            <li><span>Programmation</span> : PHP 5/7, Symfony 2/3/4, API REST, GraphQL, PHPUnit<li>
-                            <li><span>Base de données</span> : MySQL, Oracle, PostGreSQL, SQL Server, ElasticSearch</li>
-                            <li><span>Intégration</span> : jQuery, Bootstrap3, HTML5, CSS3, Twig, webpack</li>
-                            <li><span>Outils</span> : git, Composer, PHPStorm</li>
-                            <li><span>Admin</span> : Linux, scripts bash, Ansible, Docker, build de projet</li>
+                            <li><span>Programmation</span> : PHP 5/7, Symfony 2/3/4/5, API REST, microservices, GraphQL.<li>
+                            <li><span>Base de données</span> : MySQL, Oracle, PostGreSQL, SQL Server, ElasticSearch.</li>
+                            <li><span>Outils</span> : git, Composer, Docker, PHPStorm.</li>
+                            <li><span>Qualité de code</span> : phpcs, phpcf, phpstan, ComposerRequireChecker, PHPUnit, UrlTest.</li>
+                            <li><span>Admin</span> : Linux, scripts bash, Docker, build de projet.</li>
                         </ul>
                     </div>
 
@@ -159,11 +158,11 @@
                         <br /><br />
                         <h1>Informations professionnelles</h1>
                         <ul>
-                            <li><span>SARL</span> : <a href="http://www.societe.com/societe/infodroid-807949961.html" target="_blank">InfoDroid</a></li>
-                            <li><span>SIREN</span> : 807 949 961</li>
-                            <li><span>Création</span> : 30/07/2010</li>
-                            <li><span>Site</span> : <a href="http://www.info-droid.fr" target="_blank">www.info-droid.fr</a></li>
-							<li><span>Adresse</span> : 87 cours du docteur Long, 69003 Lyon
+                            <li><span>SARL</span> : <a href="http://www.societe.com/societe/infodroid-807949961.html" target="_blank">InfoDroid</a>.</li>
+                            <li><span>SIREN</span> : 807 949 961.</li>
+                            <li><span>Création</span> : 30/07/2010.</li>
+                            <li><span>Site</span> : <a href="http://www.info-droid.fr" target="_blank">www.info-droid.fr</a>.</li>
+							<li><span>Adresse</span> : 6 rue commandant Marchand, 69003 Lyon.
                         </ul>
                     </div>
                 </div>
@@ -192,8 +191,15 @@
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Symfony 2/3/4 <span>depuis 2013</span></div>
+                                            <div class="skillbarTitle">Symfony 2/3/4/5 <span>depuis 2013</span></div>
                                             <div class="percentage graphic percent90"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Microservices <span>depuis 2018</span></div>
+                                            <div class="percentage graphic percent70"></div>
                                         </div>
                                     </div>
 
@@ -245,7 +251,7 @@
                                     <div class="skillBar">            
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">SQL Server <span>2006 - 2007</span></div>
-                                            <div class="percentage progra percent60"></div>
+                                            <div class="percentage progra percent40"></div>
                                         </div>              
                                     </div>
 
@@ -297,7 +303,7 @@
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Docker <span>depuis 2015</span></div>
-                                            <div class="percentage graphic percent70"></div>
+                                            <div class="percentage graphic percent80"></div>
                                         </div>
                                     </div>
 
@@ -330,11 +336,88 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
+                                    <h3>Ageval Solutions<span>  freelance architecte technique</span> </h3>
+                                    <p>
+                                        Mise en place d'une architecture microservices en Symfony.
+                                        <br>
+                                        Création d'un maker pour générer du code, création de la stack Docker,
+                                        installation de la production sous OpenShift.
+                                        <br>
+                                        Intégration d'outils de qualité de code : phpcs, phpcf, phpstan, phpunit, UrlTest, ComposerRequireChecker etc.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>Depuis septembre 2019</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Architecte technique</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 7.3</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Architecture microservices</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 4.4/5.0</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / GitLab</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
+                                    <h3>PHP Benchmarks<span>  création du projet</span> </h3>
+                                    <p>
+                                        Création du site <a href="http://www.phpbenchmarks.com" target="_blank">phpbenchmarks.com</a>.
+                                        <br>
+                                        Génération des benchmarks pour PHP et divers frameworks (Symfony, Laravel, Zend Framework etc).
+                                        <br>
+                                        Intégration de CircleCI avec phpcs, phpstan, phpunit etc.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>Depuis 2017</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 7.4</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Migration Symfony 3.4 - 4.0</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Migration Symfony 4.4 - 5.0</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 5.0</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL 5.7</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / github</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
                                     <h3>Wizaplace<span>  freelance lead dev et architecte technique</span> </h3>
                                     <p>
                                         Lead dev d'une équipe de 10 développeurs.
-                                        Analyse et mise en place d'une architecture microsservices.
+                                        <br>
+                                        Analyse et mise en place d'une architecture microservices.
+                                        <br>
                                         Intégration de CircleCI avec phpcs, phpstan, phpunit etc.
+                                        <br>
                                         Mise en place d'une intégration continue.
                                     </p>
                                     <div class="date">
@@ -372,7 +455,11 @@
                                 <div class="det">
                                     <h3>Sensio - EkoSport<span>  freelance référent technique</span> </h3>
                                     <p>
-                                        Développement d'un CMS. Refonte de la dette technique. Migration Symfony 3.4 vers 4.1. Mise en place de tests.
+                                        Développement d'un CMS.
+                                        <br>
+                                        Refonte de la dette technique.
+                                        <br>Migration Symfony 3.4 vers 4.1.
+                                        <br>Mise en place de tests.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
@@ -412,7 +499,13 @@
                                 <div class="det">
                                     <h3>KissTheBride<span>  freelance lead développeur</span> </h3>
                                     <p>
-                                        Reprise d'un logiciel de rewarding. Refonte de la dette technique. Rédaction de specs techniques. Développement.
+                                        Reprise d'un logiciel de rewarding.
+                                        <br>
+                                        Refonte de la dette technique.
+                                        <br>
+                                        Rédaction de specs techniques.
+                                        <br>
+                                        Développement.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
@@ -441,42 +534,10 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>PHP Benchmarks<span>  création du projet</span> </h3>
-                                    <p>
-                                        Création du site <a href="http://www.phpbenchmarks.com" target="_blank">PHP Benchmarks</a>.
-                                        Génération des benchmarks pour PHP et divers frameworks (Symfony, Laravel, Zend Framework etc).
-                                        Intégration de CircleCI avec phpcs, phpstan, phpunit etc.
-                                    </p>
-                                    <div class="date">
-                                        <i class="fa fa-calendar-o"></i>
-                                        <span>Depuis 2017</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>PHP 7.2</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>Migration Symfony 3.4 - 4.0</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>Symfony 4.1</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>MySQL 5.7</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>git / github</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="em clearfix">
-                                <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
-                                </div>
-                                <div class="det">
                                     <h3>Huttopia<span>  freelance lead développeur</span> </h3>
                                     <p>
                                         Refonte du logiciel interne de gestion de campings en Symfony.
+                                        <br>
                                         Mise en place de l'architecture, choix techniques, formation de l'équipe interne.
                                     </p>
                                     <div class="date">
@@ -505,7 +566,8 @@
                                 <div class="det">
                                     <h3>C2IS<span>  freelance analyste développeur</span> </h3>
                                     <p>
-                                        Développement du site <a href="https://www.relaischateaux.com" target="_blank">Relais&Chateaux</a>, plate-forme de réservation en ligne de nuits dans des châteaux.
+                                        Développement du site <a href="https://www.relaischateaux.com" target="_blank">Relais&Chateaux</a>,
+                                        plate-forme de réservation en ligne de nuits dans des châteaux.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
@@ -587,8 +649,12 @@
                                 <div class="det">
                                     <h3>Kreactive - Digischool<span>  freelance analyste développeur</span> </h3>
                                     <p>
-                                        Référent technique Symfony2, analyse du cahier des charges, analyse technique et développement
-                                        d'un projet d'annuaire de cours en ligne, en partenariat avec LeMonde.
+                                        Référent technique Symfony2.
+                                        <br>
+                                        Analyse du cahier des charges, analyse technique et développement
+                                        d'un projet d'annuaire de cours en ligne
+                                        <br>
+                                        En partenariat avec LeMonde.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
