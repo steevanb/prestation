@@ -42,7 +42,7 @@ try {
 		<div
 			data-toggle="github-widget"
 			data-user="steevanb"
-			data-title="<a href='https://github.com/steevanb' target='_blank'>github.com/steevanb</a> - <?=$repositories?> dépôts - <?php echo number_format($downloads, 0, ',', ' ') ?> téléchargements"
+			data-title="<a href='https://github.com/steevanb' target='_blank'>github.com/steevanb</a> - <?=$repositories?> dépôts - <?php echo number_format($downloads, 0, ',', ' ') ?> téléchargements."
 		></div>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

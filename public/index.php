@@ -881,9 +881,9 @@
 							<iframe src="github.php" height="380px"></iframe>
 						
 							<br /><br />
-							<img src="images/hopwork.png" alt="Hopwork" title="Hopwork" />
+							<img src="images/malt.png" alt="Malt" title="Malt" />
 							<br /><br />
-							<a data-width="320" data-style="clear" data-height="450" data-recos="false" data-tags="true" data-picture="true" data-id="54108917e4b0b60ccde7b79d" href="https://www.hopwork.com/profile/steevanbarboyon" class="hopwork_widget">Voir mon profil freelance</a>
+							<a href="https://www.malt.fr/profile/steevanbarboyon" target="_blank">Voir mon profil freelance.</a>
 						</center>
 					</div>
 				</div>
@@ -913,18 +913,6 @@
         <script src="js/Placeholders.min.js" type="text/javascript"></script>
         <script src="js/script.js" type="text/javascript"></script>
 
-		<script type="text/javascript">  
-		  (function(d,id) {  
-			if (d.getElementById(id)) return;
-			var s = d.createElement('script');  
-			var c = d.getElementsByTagName('script')[0];  
-			s.type = 'text/javascript';  
-			s.async = true;  
-			s.src = 'https://widgets.hopwork.com/1.0.0/js/sdk.wgt.min.js';  
-			c.parentNode.insertBefore(s, c);  
-		   })(document,'hopwork-sdkjs-wgt');  
-		</script>
-		
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
