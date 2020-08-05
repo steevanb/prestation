@@ -1,3 +1,4 @@
-nbproject/
-.idea/
-vendor/
+/vendor/
+/docker/delivery/ssh
+/var/
+!/var/.gitkeep
