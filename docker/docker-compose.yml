@@ -4,8 +4,8 @@ services:
     web:
         container_name: prestation_web
         tty: true
-        build: docker/web
+        build: web
         volumes:
-            - .:/var/www/prestation
+            - ..:/var/www/prestation
         ports:
             - 8083:80

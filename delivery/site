@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+set -eu
+
+readonly ROOT_DIRECTORY=$(realpath $(dirname $(realpath $0))/..)
+readonly LOG_FILE="${ROOT_DIRECTORY}/var/delivery_site.log"
+readonly DOCKER_IMAGE_TAG="prestation_delivery:latest"
+
+function onError()
+{
+    if [ -f "$LOG_FILE" ]; then
+        cat $LOG_FILE
+        rmLogFile
+    fi
+}
+
+function rmLogFile()
+{
+    if [ -f "${LOG_FILE}" ]; then
+        rm "${LOG_FILE}"
+    fi
+}
+
+trap onError ERR
+
+function assertSshKey() {
+    local file=$1
+    local server=$2
+
+    if [ ! -f "$ROOT_DIRECTORY/docker/delivery/ssh/$file" ]; then
+        echo -e "\e[31mYou need to copy your SSH private key who have access to ${server} into docker/delivery/ssh/$file.\e[0m"
+        exit 1
+    fi
+}
+
+rmLogFile
+
+assertSshKey "github" "github.com/info-droid"
+assertSshKey "server_site" "the server of the site"
+
+echo -e "Build Docker image."
+docker build $ROOT_DIRECTORY/docker/delivery --tag=${DOCKER_IMAGE_TAG} > ${LOG_FILE}
+rmLogFile
+
+echo -e "Deliver to PROD."
+docker run -it --rm --entrypoint=/app/site.sh ${DOCKER_IMAGE_TAG}
