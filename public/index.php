@@ -159,7 +159,7 @@
                         <h1>Informations professionnelles</h1>
                         <ul>
                             <li><span>SARL</span> : <a href="http://www.societe.com/societe/infodroid-807949961.html" target="_blank">InfoDroid</a></li>
-                            <li><span>SIREN</span> : <a href="https://www.societe.com/societe/infodroid-807949961.html">807 949 961</a></li>
+                            <li><span>SIREN</span> : <a href="https://www.societe.com/societe/infodroid-807949961.html" target="_blank">807 949 961</a></li>
                             <li><span>Création</span> : 30/07/2010</li>
                             <li><span>Site</span> : <a href="http://www.info-droid.fr" target="_blank">www.info-droid.fr</a></li>
 							<li><span>Adresse</span> : 6 rue commandant Marchand, 69003 Lyon
