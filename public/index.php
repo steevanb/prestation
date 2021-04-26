@@ -65,7 +65,7 @@
                     <div class="container clearfix">
                         <a href="#" class="mobileBtn" ><i class="fa fa-bars"></i></a>
                         <div class="eighteen columns nav first">
-                            
+
                             <nav class="mainNav" >
                                 <ul>
                                     <li><img src="images/menus/avatar.png" alt="Avatar" title="Non ce n'est pas mon chat ;)" /></li>
@@ -123,7 +123,7 @@
                         </p>
 
                         <br /><br />
-                        <h1>Compétences techniques</h1>
+                        <h1>Competences techniques</h1>
                         <ul>
                             <li><span>Programmation</span> : PHP 5/7, Symfony 2/3/4/5, API REST, microservices, GraphQL.<li>
                             <li><span>Base de données</span> : MySQL, Oracle, PostGreSQL, SQL Server, ElasticSearch.</li>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
             </section>
-            
+
             <section id="skills" class="tCenter">
 				<div class="skills ofsTop ">
 					<div class="tgreyHolder bgGrey ofsTMedium">
@@ -176,17 +176,17 @@
                             <img src="images/star.png" alt="">
                         </div>
                     </div>
-                    
+
 					<div class="container clearfix">
 						<div class="skillsContent twelve columns margHBottom tLeft">
 							<div class="skill ofsInBottom">
 								<br /><br /><br /><br /><br /><br />
 								<div class="skillInner">
-									<div class="skillBar">            
+									<div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">PHP <span>depuis 2004</span></div>
                                             <div class="percentage graphic percent90"></div>
-                                        </div>              
+                                        </div>
                                     </div>
 
                                     <div class="skillBar">
@@ -199,21 +199,21 @@
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Microservices <span>depuis 2018</span></div>
-                                            <div class="percentage graphic percent70"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">API REST <span>depuis 2013</span></div>
                                             <div class="percentage graphic percent80"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
+                                            <div class="skillbarTitle">API REST <span>depuis 2013</span></div>
+                                            <div class="percentage graphic percent90"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
                                             <div class="skillbarTitle">GraphQL <span>depuis 2018</span></div>
-                                            <div class="percentage graphic percent70"></div>
+                                            <div class="percentage graphic percent50"></div>
                                         </div>
                                     </div>
 
@@ -223,74 +223,88 @@
                                             <div class="percentage graphic percent80"></div>
                                         </div>
                                     </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">RabbitMQ <span>depuis 2019</span></div>
+                                            <div class="percentage graphic percent70"></div>
+                                        </div>
+                                    </div>
 								</div>
-                                
+
                                 <br /><br /><br /><br /><br />
 								<div class="skillInner">
-									<div class="skillBar">            
+									<div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">MySQL <span>depuis 2004</span></div>
                                             <div class="percentage progra percent90"></div>
-                                        </div>              
+                                        </div>
                                     </div>
 
-                                    <div class="skillBar">            
+                                    <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Oracle <span>2006 - 2008</span></div>
                                             <div class="percentage progra percent60"></div>
-                                        </div>              
+                                        </div>
                                     </div>
 
-									<div class="skillBar">            
+									<div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">PostGreSQL <span>depuis 2015</span></div>
+                                            <div class="skillbarTitle">PostGreSQL <span>2015 - 2018</span></div>
                                             <div class="percentage progra percent50"></div>
-                                        </div>              
+                                        </div>
                                     </div>
-                                    
-                                    <div class="skillBar">            
+
+                                    <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">SQL Server <span>2006 - 2007</span></div>
                                             <div class="percentage progra percent40"></div>
-                                        </div>              
+                                        </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">ElasticSearch <span>depuis 2018</span></div>
+                                            <div class="skillbarTitle">ElasticSearch <span>2018 - 2019</span></div>
                                             <div class="percentage progra percent50"></div>
                                         </div>
                                     </div>
-
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
-                                            <div class="skillbarTitle">MongoDB <span>depuis 2019</span></div>
-                                            <div class="percentage progra percent30"></div>
-                                        </div>
-                                    </div>
 								</div>
-                                
+
                                 <br /><br /><br /><br /><br />
 								<div class="skillInner">
-                                    <div class="skillBar">            
+                                    <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Git <span>depuis 2013</span></div>
                                             <div class="percentage graphic percent80"></div>
-                                        </div>              
+                                        </div>
                                     </div>
-                                    
-                                    <div class="skillBar">            
+
+                                    <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Composer <span>depuis 2013</span></div>
                                             <div class="percentage graphic percent90"></div>
-                                        </div>              
+                                        </div>
                                     </div>
-                                    
-									<div class="skillBar">            
+
+									<div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Linux <span>depuis 2009</span></div>
                                             <div class="percentage graphic percent70"></div>
-                                        </div>              
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Bash <span>depuis 2017</span></div>
+                                            <div class="percentage graphic percent70"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">WSL2 <span>depuis 2020</span></div>
+                                            <div class="percentage graphic percent80"></div>
+                                        </div>
                                     </div>
 
                                     <div class="skillBar">
@@ -309,8 +323,8 @@
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">CircleCI <span>depuis 2019</span></div>
-                                            <div class="percentage graphic percent60"></div>
+                                            <div class="skillbarTitle">Outils de CI (CircleCI, GitLab CI etc) <span>depuis 2018</span></div>
+                                            <div class="percentage graphic percent80"></div>
                                         </div>
                                     </div>
 								</div>
@@ -319,7 +333,7 @@
 					</div>
                 </div>
             </section>
-			
+
             <section id="experiences" class="tCenter">
                 <div class="tgreyHolder bgGrey ofsTMedium">
                     <div class="bigTitle ">
@@ -327,7 +341,7 @@
                         <img alt="" src="images/star.png">
                     </div>
                 </div>
-                
+
                 <div class="container clearfix">
                     <div class="twelve columns resumeDetails margHTop margHBottom">
                         <div class="employment">
@@ -336,18 +350,69 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Ageval Solutions<span>  freelance architecte technique</span> </h3>
+                                    <h3>OptiSantis<span>&nbsp;&nbsp;&nbsp;freelance architecte technique</span> </h3>
                                     <p>
                                         Mise en place d'une architecture microservices en Symfony.
                                         <br>
-                                        Création d'un maker pour générer du code, création de la stack Docker,
-                                        installation de la production sous OpenShift.
+                                        Création des microservices, de la stack Docker, d'un maker pour générer du code,
+                                        formation de l'équipe interne.
+                                        <br><br>
+                                        Intégration d'outils de qualité de code : phpcs, phpcf, phpstan, PHPUnit, rector, ComposerRequireChecker etc.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>Octobre 2020 - Juin 2021</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Architecte technique</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 7.4</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Architecture microservices</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 5.2</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>API REST</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Swagger</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / GitLab</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Intégration continue</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
+                                    <h3>Ageval Solutions<span>&nbsp;&nbsp;&nbsp;freelance architecte technique</span> </h3>
+                                    <p>
+                                        Mise en place d'une architecture microservices en Symfony.
                                         <br>
+                                        Création des microservices, de la stack Docker, d'un maker pour générer du code,
+                                        formation de l'équipe interne, installation de la production sous OpenShift.
+                                        <br><br>
                                         Intégration d'outils de qualité de code : phpcs, phpcf, phpstan, phpunit, UrlTest, ComposerRequireChecker etc.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>Depuis septembre 2019</span>
+                                        <span>Septembre 2019 - septembre 2020</span>
                                     </div>
                                     <div class="date">
                                         <span>Architecte technique</span>
@@ -362,6 +427,18 @@
                                         <span>Symfony 4.4/5.0</span>
                                     </div>
                                     <div class="date">
+                                        <span>API REST</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL 5.7</span>
+                                    </div>
+                                    <div class="date">
                                         <span>git / GitLab</span>
                                     </div>
                                 </div>
@@ -372,7 +449,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>PHP Benchmarks<span>  création du projet</span> </h3>
+                                    <h3>PHP Benchmarks<span>&nbsp;&nbsp;&nbsp;création du projet</span> </h3>
                                     <p>
                                         Création du site <a href="http://www.phpbenchmarks.com" target="_blank">phpbenchmarks.com</a>.
                                         <br>
@@ -397,6 +474,12 @@
                                         <span>Symfony 5.0</span>
                                     </div>
                                     <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
                                         <span>MySQL 5.7</span>
                                     </div>
                                     <div class="date">
@@ -410,7 +493,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Wizaplace<span>  freelance lead dev et architecte technique</span> </h3>
+                                    <h3>Wizaplace<span>&nbsp;&nbsp;&nbsp;freelance lead dev et architecte technique</span> </h3>
                                     <p>
                                         Lead dev d'une équipe de 10 développeurs.
                                         <br>
@@ -437,6 +520,12 @@
                                         <span>Symfony 4.3</span>
                                     </div>
                                     <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
                                         <span>Redis</span>
                                     </div>
                                     <div class="date">
@@ -453,7 +542,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Sensio - EkoSport<span>  freelance référent technique</span> </h3>
+                                    <h3>Sensio - EkoSport<span>&nbsp;&nbsp;&nbsp;freelance référent technique</span> </h3>
                                     <p>
                                         Développement d'un CMS.
                                         <br>
@@ -478,6 +567,12 @@
                                         <span>Symfony 4.1</span>
                                     </div>
                                     <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
                                         <span>Redis</span>
                                     </div>
                                     <div class="date">
@@ -497,7 +592,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>KissTheBride<span>  freelance lead développeur</span> </h3>
+                                    <h3>KissTheBride<span>&nbsp;&nbsp;&nbsp;freelance lead développeur</span> </h3>
                                     <p>
                                         Reprise d'un logiciel de rewarding.
                                         <br>
@@ -534,7 +629,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Huttopia<span>  freelance lead développeur</span> </h3>
+                                    <h3>Huttopia<span>&nbsp;&nbsp;&nbsp;freelance lead développeur</span> </h3>
                                     <p>
                                         Refonte du logiciel interne de gestion de campings en Symfony.
                                         <br>
@@ -564,7 +659,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>C2IS<span>  freelance analyste développeur</span> </h3>
+                                    <h3>C2IS<span>&nbsp;&nbsp;&nbsp;freelance analyste développeur</span> </h3>
                                     <p>
                                         Développement du site <a href="https://www.relaischateaux.com" target="_blank">Relais&Chateaux</a>,
                                         plate-forme de réservation en ligne de nuits dans des châteaux.
@@ -593,7 +688,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>JAM Difus<span>  freelance analyste développeur</span> </h3>
+                                    <h3>JAM Difus<span>&nbsp;&nbsp;&nbsp;freelance analyste développeur</span> </h3>
                                     <p>
                                         Evolutions d'une plateforme d'e-commerce propriétaire, gérant 6 sites dans la vente de films adhésifs pour vitres.
                                     </p>
@@ -615,13 +710,13 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="em clearfix">
                                 <div class="dtIco">
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Jacquet Metals<span>  freelance analyste développeur</span> </h3>
+                                    <h3>Jacquet Metals<span>&nbsp;&nbsp;&nbsp;freelance analyste développeur</span> </h3>
                                     <p>
                                         Renfort d'une équipe de 15 développeurs PHP sur un ERP international gérant l'achat, la vente et les stocks de plaques de métal.
                                     </p>
@@ -647,7 +742,7 @@
                                     </span>
                                 </div>
                                 <div class="det">
-                                    <h3>Kreactive - Digischool<span>  freelance analyste développeur</span> </h3>
+                                    <h3>Kreactive - Digischool<span>&nbsp;&nbsp;&nbsp;freelance analyste développeur</span> </h3>
                                     <p>
                                         Référent technique Symfony2.
                                         <br>
@@ -684,7 +779,7 @@
                                     </span>
                                 </div>
                                 <div class="det">
-                                    <h3>Gamned - Makazi<span>  freelance lead développeur</span> </h3>
+                                    <h3>Gamned - Makazi<span>&nbsp;&nbsp;&nbsp;freelance lead développeur</span> </h3>
                                     <p>
                                         Création d'un outil de statistiques avancées sur des affichages publicitaires et des envois de mail.
                                     </p>
@@ -713,7 +808,7 @@
                                     </span>
                                 </div>
                                 <div class="det">
-                                    <h3>Accueils de jour<span>  création du projet</span> </h3>
+                                    <h3>Accueils de jour<span>&nbsp;&nbsp;&nbsp;création du projet</span> </h3>
                                     <p>
                                         Création du logiciel de gestion ADJ : dossier médical, agenda des présences, comptabilité, statistiques officielles etc.
                                     </p>
@@ -745,7 +840,7 @@
                                     </span>
                                 </div>
                                 <div class="det">
-                                    <h3>Alptis Assurances<span>  CDI</span> </h3>
+                                    <h3>Alptis Assurances<span>&nbsp;&nbsp;&nbsp;CDI</span> </h3>
                                     <p>
                                         Développement de tarificateurs WEB pour des mutuelles et des assurances de prêt, espace courtier, évolutions du framework Copix.
                                     </p>
@@ -774,7 +869,7 @@
                                     </span>
                                 </div>
                                 <div class="det">
-                                    <h3>Arawak<span>  CDI</span> </h3>
+                                    <h3>Arawak<span>&nbsp;&nbsp;&nbsp;CDI</span> </h3>
                                     <p>
                                         Développement d'un logiciel de gestion de mairies, casernes de pompiers, organismes officiels etc.
                                     </p>
@@ -797,7 +892,7 @@
                                     </span>
                                 </div>
                                 <div class="det">
-                                    <h3>Amitel<span>  BTS en alternance</span> </h3>
+                                    <h3>Amitel<span>&nbsp;&nbsp;&nbsp;BTS en alternance</span> </h3>
                                     <p>
                                         Développement de sites vitrines, CMS et cartes dynamiques pour divers milieux : mairies, domaine médical etc.
                                     </p>
@@ -817,7 +912,7 @@
                     </div>
                 </div>
             </section>
-            
+
             <section id="studies" class="tCenter">
                 <div class="tgreyHolder bgGrey ofsTMedium">
                     <div class="bigTitle ">
@@ -864,7 +959,7 @@
                     </div>
                 </div>
             </section>
-			
+
 			<section id="experiences" class="tCenter">
                 <div class="tgreyHolder bgGrey ofsTMedium">
                     <div class="bigTitle ">
@@ -872,14 +967,14 @@
                         <img alt="" src="images/star.png">
                     </div>
                 </div>
-				
+
 				<div class="container clearfix">
                     <div class="twelve columns resumeDetails margHTop margHBottom">
 						<center>
 							<img src="images/github.png" alt="GitHub" title="GitHub" />
 							<br /><br />
 							<iframe src="github.php" height="380px"></iframe>
-						
+
 							<br /><br />
 							<img src="images/malt.png" alt="Malt" title="Malt" />
 							<br /><br />
@@ -888,7 +983,7 @@
 					</div>
 				</div>
 			</section>
-            
+
             <footer id="footer" class="footer tCenter">
                 <div class="footerBottom ofsTSmall ofsBSmall">
                     <div class="container clearfix">
@@ -899,7 +994,7 @@
                 </div>
             </footer>
         </div>
-        
+
         <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
         <script src="js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
         <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
