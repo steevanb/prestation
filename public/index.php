@@ -350,6 +350,48 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
+                                    <h3>SensioLabs - Safti<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
+                                    <p>
+                                        Formation des équipes à Symfony.
+                                        <br>Amélioration de la partie devops.
+                                        <br>Migration d'un framework maison vers Symfony 5.3.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>Juin 2021 - Août 2021</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Lead dev</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>DevOps</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 8.0</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Migration vers Symfony 5.3</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>API REST</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / GitLab</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
                                     <h3>OptiSantis<span>&nbsp;&nbsp;&nbsp;freelance architecte technique</span> </h3>
                                     <p>
                                         Mise en place d'une architecture microservices en Symfony.
@@ -365,6 +407,9 @@
                                     </div>
                                     <div class="date">
                                         <span>Architecte technique</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>DevOps</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 7.4</span>
@@ -416,6 +461,9 @@
                                     </div>
                                     <div class="date">
                                         <span>Architecte technique</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>DevOps</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 7.3</span>
@@ -508,7 +556,13 @@
                                         <span>Janvier 2019 - Août 2019</span>
                                     </div>
                                     <div class="date">
-                                        <span>Lead dev - architecte technique</span>
+                                        <span>Architecte technique</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Lead dev</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>DevOps</span>
                                     </div>
                                     <div class="date">
                                         <span>PHP 7.3</span>
@@ -542,7 +596,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Sensio - EkoSport<span>&nbsp;&nbsp;&nbsp;freelance référent technique</span> </h3>
+                                    <h3>SensioLabs - EkoSport<span>&nbsp;&nbsp;&nbsp;freelance référent technique</span> </h3>
                                     <p>
                                         Développement d'un CMS.
                                         <br>
@@ -582,7 +636,7 @@
                                         <span>PostGreSQL</span>
                                     </div>
                                     <div class="date">
-                                        <span>git / gitlab</span>
+                                        <span>git / GitLab</span>
                                     </div>
                                 </div>
                             </div>
@@ -619,7 +673,7 @@
                                         <span>MySQL 5.7</span>
                                     </div>
                                     <div class="date">
-                                        <span>git / gitlab</span>
+                                        <span>git / GitLab</span>
                                     </div>
                                 </div>
                             </div>
