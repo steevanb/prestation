@@ -125,11 +125,11 @@
                         <br /><br />
                         <h1>Competences techniques</h1>
                         <ul>
-                            <li><span>Programmation</span> : PHP 5/7, Symfony 2/3/4/5, API REST, microservices, GraphQL.<li>
+                            <li><span>Programmation</span> : PHP 4/5/7/8, Symfony 2/3/4/5/6, microservices.<li>
                             <li><span>Base de données</span> : MySQL, Oracle, PostGreSQL, SQL Server, ElasticSearch.</li>
-                            <li><span>Outils</span> : git, Composer, Docker, PHPStorm.</li>
+                            <li><span>Outils</span> : git, Composer, PHPStorm.</li>
                             <li><span>Qualité de code</span> : phpcs, phpcf, phpstan, ComposerRequireChecker, PHPUnit, UrlTest.</li>
-                            <li><span>Admin</span> : Linux, scripts bash, Docker, build de projet.</li>
+                            <li><span>DevOps</span> : bash, Docker, Kubernetes.</li>
                         </ul>
                     </div>
 
@@ -184,14 +184,14 @@
 								<div class="skillInner">
 									<div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">PHP <span>depuis 2004</span></div>
+                                            <div class="skillbarTitle">PHP 4/5/7/8 <span>depuis 2004</span></div>
                                             <div class="percentage graphic percent90"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Symfony 2/3/4/5 <span>depuis 2013</span></div>
+                                            <div class="skillbarTitle">Symfony 2/3/4/5/6 <span>depuis 2013</span></div>
                                             <div class="percentage graphic percent90"></div>
                                         </div>
                                     </div>
@@ -221,6 +221,13 @@
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">PHPUnit <span>depuis 2013</span></div>
                                             <div class="percentage graphic percent80"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Infection <span>depuis 2020</span></div>
+                                            <div class="percentage graphic percent70"></div>
                                         </div>
                                     </div>
 
@@ -309,13 +316,6 @@
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Admin serveur <span>depuis 2010</span></div>
-                                            <div class="percentage graphic percent60"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="skillBar">
-                                        <div class="skillbarHolder">
                                             <div class="skillbarTitle">Docker <span>depuis 2015</span></div>
                                             <div class="percentage graphic percent80"></div>
                                         </div>
@@ -323,7 +323,14 @@
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Outils de CI (CircleCI, GitLab CI etc) <span>depuis 2018</span></div>
+                                            <div class="skillbarTitle">Kubernetes <span>depuis 2020</span></div>
+                                            <div class="percentage graphic percent50"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Outils de CI (CircleCI, GitLab CI, Github Actions) <span>depuis 2018</span></div>
                                             <div class="percentage graphic percent80"></div>
                                         </div>
                                     </div>
@@ -345,6 +352,52 @@
                 <div class="container clearfix">
                     <div class="twelve columns resumeDetails margHTop margHBottom">
                         <div class="employment">
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
+                                    <h3>Ubitransport<span>&nbsp;&nbsp;&nbsp;freelance architecte technique</span> </h3>
+                                    <p>
+                                        Mise en place de la stack microservices sous Symfony.
+                                        <br>Formation des équipes à Symfony.
+                                        <br>Mise en place de la CI (~ 10 outils de validation de code).
+                                        <br>Création de la stack Docker et du process de livraison.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>Depuis septembre 2021</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Architecte technique</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>DevOps</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 8.1</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 6.0</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>API REST</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Kubernetes</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / GitLab</span>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="em clearfix">
                                 <div class="dtIco">
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
@@ -1028,11 +1081,6 @@
 							<img src="images/github.png" alt="GitHub" title="GitHub" />
 							<br /><br />
 							<iframe src="github.php" height="380px"></iframe>
-
-							<br /><br />
-							<img src="images/malt.png" alt="Malt" title="Malt" />
-							<br /><br />
-							<a href="https://www.malt.fr/profile/steevanbarboyon" target="_blank">Voir mon profil freelance.</a>
 						</center>
 					</div>
 				</div>
