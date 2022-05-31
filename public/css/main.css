@@ -314,6 +314,7 @@ header.base{
     color: #ffffff;
     display: block;
     position: relative;
+    text-shadow: #000 1px 0 3px;
 }
 
 .switchedHeader .mainNav li a  {
