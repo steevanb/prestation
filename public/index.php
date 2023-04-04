@@ -357,6 +357,47 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
+                                    <h3>Fresenius Kabi<span>&nbsp;&nbsp;&nbsp;freelance architecte technique</span> </h3>
+                                    <p>
+                                        Mise en place de la structure du projet sous Symfony.
+                                        <br>Formation des équipes à Symfony.
+                                        <br>Mise en place de la CI (~ 15 outils de validation de code).
+                                        <br>Création de la stack Docker et du process de livraison.
+                                        <br>Ecriture des specs techniques.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>Depuis octobre 2022</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Architecte technique</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>DevOps</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 8.2</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 6.2</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>git / Bitbucket</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
                                     <h3>Ubitransport<span>&nbsp;&nbsp;&nbsp;freelance architecte technique</span> </h3>
                                     <p>
                                         Mise en place de la stack microservices sous Symfony.
@@ -366,7 +407,7 @@
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>Depuis septembre 2021</span>
+                                        <span>Septembre 2021 - août 2022</span>
                                     </div>
                                     <div class="date">
                                         <span>Architecte technique</span>
