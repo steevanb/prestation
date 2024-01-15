@@ -162,7 +162,7 @@
                             <li><span>SIREN</span> : <a href="https://www.societe.com/societe/infodroid-807949961.html" target="_blank">807 949 961</a></li>
                             <li><span>Création</span> : 30/07/2010</li>
                             <li><span>Site</span> : <a href="http://www.info-droid.fr" target="_blank">www.info-droid.fr</a></li>
-							<li><span>Adresse</span> : 6 rue commandant Marchand, 69003 Lyon
+							<li><span>Adresse</span> : 20 avenue de Montlouis, 69410 Champagne-au-Mont-d'Or
                         </ul>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Infection <span>depuis 2020</span></div>
-                                            <div class="percentage graphic percent70"></div>
+                                            <div class="percentage graphic percent60"></div>
                                         </div>
                                     </div>
 
@@ -357,20 +357,21 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Fresenius Kabi<span>&nbsp;&nbsp;&nbsp;freelance architecte technique</span> </h3>
+                                    <h3>Fresenius Kabi<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
                                     <p>
                                         Mise en place de la structure du projet sous Symfony.
                                         <br>Formation des équipes à Symfony.
                                         <br>Mise en place de la CI (~ 15 outils de validation de code).
                                         <br>Création de la stack Docker et du process de livraison.
                                         <br>Ecriture des specs techniques.
+                                        <br>Développement de fonctionnalités.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>Depuis octobre 2022</span>
                                     </div>
                                     <div class="date">
-                                        <span>Architecte technique</span>
+                                        <span>Lead dev</span>
                                     </div>
                                     <div class="date">
                                         <span>DevOps</span>
@@ -382,10 +383,16 @@
                                         <span>Symfony 6.2</span>
                                     </div>
                                     <div class="date">
+                                        <span>RabbitMQ</span>
+                                    </div>
+                                    <div class="date">
                                         <span>Docker</span>
                                     </div>
                                     <div class="date">
                                         <span>Bash</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>CI/CD</span>
                                     </div>
                                     <div class="date">
                                         <span>git / Bitbucket</span>
@@ -398,19 +405,20 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Ubitransport<span>&nbsp;&nbsp;&nbsp;freelance architecte technique</span> </h3>
+                                    <h3>Ubitransport<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
                                     <p>
                                         Mise en place de la stack microservices sous Symfony.
                                         <br>Formation des équipes à Symfony.
                                         <br>Mise en place de la CI (~ 10 outils de validation de code).
                                         <br>Création de la stack Docker et du process de livraison.
+                                        <br>Développement de fonctionnalités.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>Septembre 2021 - août 2022</span>
                                     </div>
                                     <div class="date">
-                                        <span>Architecte technique</span>
+                                        <span>Lead dev</span>
                                     </div>
                                     <div class="date">
                                         <span>DevOps</span>
@@ -432,6 +440,9 @@
                                     </div>
                                     <div class="date">
                                         <span>Bash</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>CI/CD</span>
                                     </div>
                                     <div class="date">
                                         <span>git / GitLab</span>
@@ -486,21 +497,23 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>OptiSantis<span>&nbsp;&nbsp;&nbsp;freelance architecte technique</span> </h3>
+                                    <h3>OptiSantis<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
                                     <p>
                                         Mise en place d'une architecture microservices en Symfony.
                                         <br>
                                         Création des microservices, de la stack Docker, d'un maker pour générer du code,
                                         formation de l'équipe interne.
-                                        <br><br>
-                                        Intégration d'outils de qualité de code : phpcs, phpcf, phpstan, PHPUnit, rector, ComposerRequireChecker etc.
+                                        <br>
+                                        Intégration d'outils de qualité de code : phpcs, phpcf, phpstan, PHPUnit, rector, ComposerRequireChecker.
+                                        <br>
+                                        Développement de fonctionnalités.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>Octobre 2020 - Juin 2021</span>
                                     </div>
                                     <div class="date">
-                                        <span>Architecte technique</span>
+                                        <span>Lead dev</span>
                                     </div>
                                     <div class="date">
                                         <span>DevOps</span>
@@ -527,10 +540,10 @@
                                         <span>Bash</span>
                                     </div>
                                     <div class="date">
-                                        <span>git / GitLab</span>
+                                        <span>CI/CD</span>
                                     </div>
                                     <div class="date">
-                                        <span>Intégration continue</span>
+                                        <span>git / GitLab</span>
                                     </div>
                                 </div>
                             </div>
@@ -540,21 +553,23 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Ageval Solutions<span>&nbsp;&nbsp;&nbsp;freelance architecte technique</span> </h3>
+                                    <h3>Ageval Solutions<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
                                     <p>
                                         Mise en place d'une architecture microservices en Symfony.
                                         <br>
                                         Création des microservices, de la stack Docker, d'un maker pour générer du code,
                                         formation de l'équipe interne, installation de la production sous OpenShift.
-                                        <br><br>
-                                        Intégration d'outils de qualité de code : phpcs, phpcf, phpstan, phpunit, UrlTest, ComposerRequireChecker etc.
+                                        <br>
+                                        Intégration d'outils de qualité de code : phpcs, phpcf, phpstan, phpunit, UrlTest, ComposerRequireChecker.
+                                        <br>
+                                        Développement de fonctionnalités.
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
                                         <span>Septembre 2019 - septembre 2020</span>
                                     </div>
                                     <div class="date">
-                                        <span>Architecte technique</span>
+                                        <span>Lead dev</span>
                                     </div>
                                     <div class="date">
                                         <span>DevOps</span>
@@ -575,10 +590,13 @@
                                         <span>Docker</span>
                                     </div>
                                     <div class="date">
+                                        <span>MySQL 5.7</span>
+                                    </div>
+                                    <div class="date">
                                         <span>Bash</span>
                                     </div>
                                     <div class="date">
-                                        <span>MySQL 5.7</span>
+                                        <span>CI/CD</span>
                                     </div>
                                     <div class="date">
                                         <span>git / GitLab</span>
@@ -635,7 +653,7 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>Wizaplace<span>&nbsp;&nbsp;&nbsp;freelance lead dev et architecte technique</span> </h3>
+                                    <h3>Wizaplace<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
                                     <p>
                                         Lead dev d'une équipe de 10 développeurs.
                                         <br>
@@ -650,7 +668,7 @@
                                         <span>Janvier 2019 - Août 2019</span>
                                     </div>
                                     <div class="date">
-                                        <span>Architecte technique</span>
+                                        <span>Lead dev</span>
                                     </div>
                                     <div class="date">
                                         <span>Lead dev</span>
@@ -678,6 +696,9 @@
                                     </div>
                                     <div class="date">
                                         <span>MongoDB</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>CI/CD</span>
                                     </div>
                                     <div class="date">
                                         <span>git / github</span>

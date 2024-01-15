@@ -49,24 +49,11 @@ function execCmdHideOutput() {
     echo ""
 }
 
-
-function addHost() {
-    local host=$1
-    if [ "$(cat /etc/hosts | grep $host)" == "" ]; then
-        echo ""
-        echoCmd "echo '127.0.0.1       $host' >> /etc/hosts"
-        sudo bash -c "echo '127.0.0.1       $host' >> /etc/hosts"
-        [ "$?" != "0" ] && cancelScript "Error while adding host $host."
-    fi
-}
-
 readonly rootDir=$(realpath $(dirname $(realpath $0))/..)
 readonly dockerDir="${rootDir}/docker"
 readonly dockerComposeFilePath="${dockerDir}/docker-compose.yml"
 
 execCmdHideOutput "docker-compose --project-directory=${dockerDir} --file=${dockerComposeFilePath} up --build -d" "Error while starting docker."
 
-addHost "prestation.loc"
-
 echo -en "\033[42m\033[1;37m Everything is started. \033[0m\n"
-echo -e "url: \e[4mhttp://prestation.loc:8083\e[0m"
+echo -e "url: \e[4mhttp://localhost:8083\e[0m"
