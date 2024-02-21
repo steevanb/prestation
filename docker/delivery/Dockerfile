@@ -6,7 +6,7 @@ RUN \
     && docker-php-ext-install intl mysqli zip \
     && mkdir ~/.ssh/ \
     && ssh-keyscan -H github.com >> ~/.ssh/known_hosts \
-    && ssh-keyscan -H sephidev.net >> ~/.ssh/known_hosts
+    && ssh-keyscan -H info-droid.fr >> ~/.ssh/known_hosts
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 COPY --from=composer /usr/bin/composer /usr/local/bin/composer
@@ -19,7 +19,7 @@ RUN \
     && chmod 400 ~/.ssh/server_site \
     && echo "Host github.com" > ~/.ssh/config \
     && echo "  IdentityFile ~/.ssh/github" >> ~/.ssh/config \
-    && echo "Host sephidev.net" >> ~/.ssh/config \
+    && echo "Host info-droid.fr" >> ~/.ssh/config \
     && echo "  IdentityFile ~/.ssh/server_site" >> ~/.ssh/config \
     && ln -snf /usr/share/zoneinfo/Europe/Paris /etc/localtime \
     && echo "Europe/Paris" > /etc/timezone

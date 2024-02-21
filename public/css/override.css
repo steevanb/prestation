@@ -1,0 +1,8 @@
+li.link a {
+    font-size: 16px;
+    text-shadow: #000 1px 1px 2px;
+}
+
+.caption p {
+    text-shadow: 2px 1px 7px #000000;
+}

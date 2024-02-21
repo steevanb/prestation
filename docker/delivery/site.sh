@@ -2,7 +2,7 @@
 
 set -eu
 
-echo -en "\e[44m Are you sure you want to deliver admin in PROD [y/N]? \e[0m "
+echo -en "\e[44m Are you sure you want to deliver site in PROD [y/N]? \e[0m "
 read confirm
 if [ "$confirm" != "Y" ] && [ "$confirm" != "y" ]; then
     echo -e "\e[41m Delivery canceled. \e[0m"
@@ -13,7 +13,7 @@ readonly ROOT_DIR="/tmp/delivery"
 readonly OUTPUT_REDIRECT="/tmp/delivery.log"
 #readonly OUTPUT_REDIRECT="/proc/self/fd/0"
 readonly ZIP_FILE="/tmp/delivery.zip"
-readonly SERVER_URL="infodroid@sephidev.net"
+readonly SERVER_URL="infodroid@info-droid.fr"
 readonly SERVER_INSTALLATION_ROOT_DIR="/data/www/prestation"
 
 function rmLogFile()
