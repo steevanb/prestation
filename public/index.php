@@ -17,6 +17,7 @@
         <link href="css/main.css" rel="stylesheet" type="text/css">
         <link href="css/magnific-popup.css" rel="stylesheet"  />
         <link href="css/flexslider.css" rel="stylesheet" />
+        <link href="css/override.css" rel="stylesheet" />
 
         <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
@@ -68,7 +69,7 @@
 
                             <nav class="mainNav" >
                                 <ul>
-                                    <li><img src="images/menus/avatar.png" alt="Avatar" title="Non ce n'est pas mon chat ;)" /></li>
+                                    <li><img src="images/menus/symfony.png" alt="Symfony" /></li>
                                     <li class="link">
                                         <a class="scroll" href="#skills">
                                             <img src="images/menus/skills.png" /><br />
