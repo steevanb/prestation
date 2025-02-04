@@ -45,15 +45,13 @@
             <div class="profileTeaser ">
                 <div class="teaser">
                     <ul class="slide">
-                        <li><img src="images/profileImages/profileLarge.jpg" class="slide" alt=""/>
+                        <li><img src="images/profileImages/profileLarge.jpg" class="slide"/>
                             <div class="caption">
                                 <h1>Steevan BARBOYON</h1>
                                 <p>
-                                    Analyste développeur depuis 2001
-                                    <br>PHP depuis 2004
-                                    <br>Symfony depuis 2013
-                                    <br>Lead développeur Symfony depuis 2015
-                                    <br>Architecte technique Symfony depuis 2019
+                                    Lead developpeur
+                                    <br>
+                                    PHP - Symfony - Docker - Bash - DevOps - CI/CD
                                 </p>
                             </div>
                         </li>
@@ -72,37 +70,37 @@
                                     <li><img src="images/menus/symfony.png" alt="Symfony" /></li>
                                     <li class="link">
                                         <a class="scroll" href="#skills">
-                                            <img src="images/menus/skills.png" /><br />
+                                            <img src="images/menus/skills.png" /><br>
                                             Competences
                                         </a>
                                     </li>
                                     <li class="link">
                                         <a class="scroll" href="#experiences">
-                                            <img src="images/menus/experiences.png" /><br />
+                                            <img src="images/menus/experiences.png" /><br>
                                             Experiences
                                         </a>
                                     </li>
                                     <li class="link">
                                         <a class="scroll" href="#studies">
-                                            <img src="images/menus/studies.png" /><br />
+                                            <img src="images/menus/studies.png" /><br>
                                             Etudes
                                         </a>
                                     </li>
                                     <li class="link">
                                         <a class="scroll" href="https://github.com/steevanb" target="_blank">
-                                            <img src="images/menus/github.png" /><br />
+                                            <img src="images/menus/github.png" /><br>
                                             GitHub
                                         </a>
                                     </li>
                                     <li class="link">
                                         <a class="scroll" href="http://steevan-barboyon.blogspot.fr" target=_blank">
-                                            <img src="images/menus/blogger.png" /><br />
+                                            <img src="images/menus/blogger.png" /><br>
                                             Blog
                                         </a>
                                     </li>
                                     <li class="link">
                                         <a class="scroll" href="https://drive.google.com/open?id=1lGSXLFcJnzxXuN6Yb4GqYa7dZdW6ywh9WZZj4HorVwg&authuser=0" target="_blank">
-                                            <img src="images/menus/download.png" /><br />
+                                            <img src="images/menus/download.png" /><br>
                                             Telecharger
                                         </a>
                                     </li>
@@ -118,15 +116,13 @@
                     <div class="one-third column intro">
                         <h1>A propos de moi</h1>
                         <p>
-                            J'ai découvert la programmation en 2001 et je m'oriente vers de l'architecture technique depuis 2019.
-                            <br>
-                            Je suis freelance depuis 2011.
+                            Mon expertise dans la gestion d’une application du code à la production, en passant par la formation des équipes, vous permettra d’être serein sur la qualité des livrables.
                         </p>
 
-                        <br /><br />
+                        <br><br>
                         <h1>Competences techniques</h1>
                         <ul>
-                            <li><span>Programmation</span> : PHP 4/5/7/8, Symfony 2/3/4/5/6, microservices.<li>
+                            <li><span>Programmation</span> : PHP 4/5/7/8, Symfony 2/3/4/5/6/7, microservices.<li>
                             <li><span>Base de données</span> : MySQL, Oracle, PostGreSQL, SQL Server, ElasticSearch.</li>
                             <li><span>Outils</span> : git, Composer, PHPStorm.</li>
                             <li><span>Qualité de code</span> : phpcs, phpcf, phpstan, ComposerRequireChecker, PHPUnit, UrlTest.</li>
@@ -156,7 +152,7 @@
                             <li><span>E-mail</span> : <a href="mailto:contact@info-droid.fr">contact@info-droid.fr</a></li>
                         </ul>
 
-                        <br /><br />
+                        <br><br>
                         <h1>Informations professionnelles</h1>
                         <ul>
                             <li><span>SARL</span> : <a href="http://www.societe.com/societe/infodroid-807949961.html" target="_blank">InfoDroid</a></li>
@@ -181,7 +177,7 @@
 					<div class="container clearfix">
 						<div class="skillsContent twelve columns margHBottom tLeft">
 							<div class="skill ofsInBottom">
-								<br /><br /><br /><br /><br /><br />
+								<br><br><br><br><br><br>
 								<div class="skillInner">
 									<div class="skillBar">
                                         <div class="skillbarHolder">
@@ -192,7 +188,7 @@
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Symfony 2/3/4/5/6 <span>depuis 2013</span></div>
+                                            <div class="skillbarTitle">Symfony 2/3/4/5/6/7 <span>depuis 2013</span></div>
                                             <div class="percentage graphic percent90"></div>
                                         </div>
                                     </div>
@@ -240,7 +236,7 @@
                                     </div>
 								</div>
 
-                                <br /><br /><br /><br /><br />
+                                <br><br><br><br><br>
 								<div class="skillInner">
 									<div class="skillBar">
                                         <div class="skillbarHolder">
@@ -278,7 +274,7 @@
                                     </div>
 								</div>
 
-                                <br /><br /><br /><br /><br />
+                                <br><br><br><br><br>
 								<div class="skillInner">
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
@@ -358,6 +354,57 @@
                                     <span class="ico"><i class="fa fa-suitcase"></i></span>
                                 </div>
                                 <div class="det">
+                                    <h3>Sogec Marketing<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
+                                    <p>
+                                        Mise en place de la structure du projet sous Symfony.
+                                        <br>Formation des équipes à Symfony.
+                                        <br>Mise en place de la CI (~ 15 outils de validation de code).
+                                        <br>Création de la stack Docker et du process de livraison.
+                                        <br>Ecriture des specs techniques.
+                                        <br>Développement de fonctionnalités.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>De mars 2024 à décembre 2024</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Lead dev</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>DevOps</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 8.2</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 7.0</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Architecture microservices</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Kubernetes</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>CI/CD</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                </div>
+                                <div class="det">
                                     <h3>Fresenius Kabi<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
                                     <p>
                                         Mise en place de la structure du projet sous Symfony.
@@ -390,13 +437,13 @@
                                         <span>Docker</span>
                                     </div>
                                     <div class="date">
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="date">
                                         <span>Bash</span>
                                     </div>
                                     <div class="date">
                                         <span>CI/CD</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>git / Bitbucket</span>
                                     </div>
                                 </div>
                             </div>
@@ -440,13 +487,13 @@
                                         <span>Kubernetes</span>
                                     </div>
                                     <div class="date">
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="date">
                                         <span>Bash</span>
                                     </div>
                                     <div class="date">
                                         <span>CI/CD</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>git / GitLab</span>
                                     </div>
                                 </div>
                             </div>
@@ -485,10 +532,10 @@
                                         <span>Docker</span>
                                     </div>
                                     <div class="date">
-                                        <span>Bash</span>
+                                        <span>MySQL</span>
                                     </div>
                                     <div class="date">
-                                        <span>git / GitLab</span>
+                                        <span>Bash</span>
                                     </div>
                                 </div>
                             </div>
@@ -543,9 +590,6 @@
                                     <div class="date">
                                         <span>CI/CD</span>
                                     </div>
-                                    <div class="date">
-                                        <span>git / GitLab</span>
-                                    </div>
                                 </div>
                             </div>
 
@@ -599,9 +643,6 @@
                                     <div class="date">
                                         <span>CI/CD</span>
                                     </div>
-                                    <div class="date">
-                                        <span>git / GitLab</span>
-                                    </div>
                                 </div>
                             </div>
 
@@ -638,13 +679,13 @@
                                         <span>Docker</span>
                                     </div>
                                     <div class="date">
-                                        <span>Bash</span>
-                                    </div>
-                                    <div class="date">
                                         <span>MySQL 5.7</span>
                                     </div>
                                     <div class="date">
-                                        <span>git / github</span>
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>CI/CD</span>
                                     </div>
                                 </div>
                             </div>
@@ -701,9 +742,6 @@
                                     <div class="date">
                                         <span>CI/CD</span>
                                     </div>
-                                    <div class="date">
-                                        <span>git / github</span>
-                                    </div>
                                 </div>
                             </div>
 
@@ -751,9 +789,6 @@
                                     <div class="date">
                                         <span>PostGreSQL</span>
                                     </div>
-                                    <div class="date">
-                                        <span>git / GitLab</span>
-                                    </div>
                                 </div>
                             </div>
 
@@ -788,9 +823,6 @@
                                     <div class="date">
                                         <span>MySQL 5.7</span>
                                     </div>
-                                    <div class="date">
-                                        <span>git / GitLab</span>
-                                    </div>
                                 </div>
                             </div>
 
@@ -818,9 +850,6 @@
                                     <div class="date">
                                         <span>MySQL 5.7</span>
                                     </div>
-                                    <div class="date">
-                                        <span>git / github</span>
-                                    </div>
                                 </div>
                             </div>
 
@@ -847,9 +876,6 @@
                                     <div class="date">
                                         <span>PostGreSQL</span>
                                     </div>
-                                    <div class="date">
-                                        <span>git</span>
-                                    </div>
                                 </div>
                             </div>
 
@@ -874,9 +900,6 @@
                                     </div>
                                     <div class="date">
                                         <span>MySQL</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>git</span>
                                     </div>
                                 </div>
                             </div>
@@ -937,9 +960,6 @@
                                     <div class="date">
                                         <span>MySQL</span>
                                     </div>
-                                    <div class="date">
-                                        <span>git / git flow</span>
-                                    </div>
                                 </div>
                             </div>
 
@@ -965,9 +985,6 @@
                                     </div>
                                     <div class="date">
                                         <span>HBase / MySQL</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>git / git flow</span>
                                     </div>
                                 </div>
                             </div>
@@ -997,9 +1014,6 @@
                                     </div>
                                     <div class="date">
                                         <span>MySQL</span>
-                                    </div>
-                                    <div class="date">
-                                        <span>git / git flow</span>
                                     </div>
                                 </div>
                             </div>
@@ -1142,7 +1156,7 @@
                     <div class="twelve columns resumeDetails margHTop margHBottom">
 						<center>
 							<img src="images/github.png" alt="GitHub" title="GitHub" />
-							<br /><br />
+							<br><br>
 							<iframe src="github.php" height="380px"></iframe>
 						</center>
 					</div>
