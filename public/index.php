@@ -448,9 +448,9 @@
                                     <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
-                                    <h3>HomeServe<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
+                                    <h3>HomeServe<span>&nbsp;&nbsp;&nbsp;freelance dev sénior</span> </h3>
                                     <p>
-                                        Lead technique sur les applications du SI.
+                                        Dev sénior sur les applications du SI.
                                         <br>Mise en place des bonnes pratiques de développement et de la CI.
                                         <br>Architecture et choix techniques.
                                         <br>Développement de fonctionnalités.
@@ -460,7 +460,7 @@
                                         <span>Depuis juillet 2025</span>
                                     </div>
                                     <div class="date">
-                                        <span>Lead dev</span>
+                                        <span>Dev sénior</span>
                                     </div>
                                     <div class="date">
                                         <span>DevOps</span>
