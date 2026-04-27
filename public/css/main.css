@@ -750,6 +750,21 @@ h1.prfTitle span {
     background:#37b0ac;
 }
 
+
+.percentage.ai {
+    background:#7c3aed;
+}
+
+
+.percentage.devops {
+    background:#2563eb;
+}
+
+
+.percentage.tools {
+    background:#475569;
+}
+
 .my-skillbar {
     background-color: #EFEFEF;
     height: 15px;

@@ -70,37 +70,37 @@
                                     <li><img src="images/menus/symfony.png" alt="Symfony" /></li>
                                     <li class="link">
                                         <a class="scroll" href="#skills">
-                                            <img src="images/menus/skills.png" /><br>
+                                            <i class="fa fa-cogs" style="font-size: 32px; cursor: pointer;"></i><br>
                                             Competences
                                         </a>
                                     </li>
                                     <li class="link">
                                         <a class="scroll" href="#experiences">
-                                            <img src="images/menus/experiences.png" /><br>
+                                            <i class="fa fa-briefcase" style="font-size: 32px; cursor: pointer;"></i><br>
                                             Experiences
                                         </a>
                                     </li>
                                     <li class="link">
                                         <a class="scroll" href="#studies">
-                                            <img src="images/menus/studies.png" /><br>
+                                            <i class="fa fa-graduation-cap" style="font-size: 32px; cursor: pointer;"></i><br>
                                             Etudes
                                         </a>
                                     </li>
                                     <li class="link">
                                         <a class="scroll" href="https://github.com/steevanb" target="_blank">
-                                            <img src="images/menus/github.png" /><br>
+                                            <i class="fa fa-github" style="font-size: 32px; cursor: pointer;"></i><br>
                                             GitHub
                                         </a>
                                     </li>
                                     <li class="link">
-                                        <a class="scroll" href="http://steevan-barboyon.blogspot.fr" target=_blank">
-                                            <img src="images/menus/blogger.png" /><br>
-                                            Blog
+                                        <a class="scroll" href="https://www.linkedin.com/in/steevan-barboyon-4208abb7/" target="_blank">
+                                            <i class="fa fa-linkedin-square" style="font-size: 32px; cursor: pointer;"></i><br>
+                                            LinkedIn
                                         </a>
                                     </li>
                                     <li class="link">
                                         <a class="scroll" href="https://drive.google.com/open?id=1lGSXLFcJnzxXuN6Yb4GqYa7dZdW6ywh9WZZj4HorVwg&authuser=0" target="_blank">
-                                            <img src="images/menus/download.png" /><br>
+                                            <i class="fa fa-download" style="font-size: 32px; cursor: pointer;"></i><br>
                                             Telecharger
                                         </a>
                                     </li>
@@ -122,7 +122,7 @@
                         <br><br>
                         <h1>Competences techniques</h1>
                         <ul>
-                            <li><span>Programmation</span> : PHP 4/5/7/8, Symfony 2/3/4/5/6/7, microservices.<li>
+                            <li><span>Programmation</span> : PHP 4/5/7/8, Symfony 2/3/4/5/6/7/8, microservices.<li>
                             <li><span>Base de données</span> : MySQL, Oracle, PostGreSQL, SQL Server, ElasticSearch.</li>
                             <li><span>Outils</span> : git, Composer, PHPStorm.</li>
                             <li><span>Qualité de code</span> : phpcs, phpcf, phpstan, ComposerRequireChecker, PHPUnit, UrlTest.</li>
@@ -182,56 +182,73 @@
 									<div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">PHP 4/5/7/8 <span>depuis 2004</span></div>
-                                            <div class="percentage graphic percent90"></div>
+                                            <div class="percentage devops percent90"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Symfony 2/3/4/5/6/7 <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent90"></div>
+                                            <div class="percentage devops percent90"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Microservices <span>depuis 2018</span></div>
-                                            <div class="percentage graphic percent80"></div>
+                                            <div class="percentage devops percent80"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">API REST <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent90"></div>
+                                            <div class="skillbarTitle">API REST <span>OpenAPI, Swagger</span> <span>depuis 2013</span></div>
+                                            <div class="percentage devops percent90"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">GraphQL <span>depuis 2018</span></div>
-                                            <div class="percentage graphic percent50"></div>
+                                            <div class="percentage devops percent50"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">PHPUnit <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent80"></div>
+                                            <div class="percentage devops percent80"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
-                                            <div class="skillbarTitle">Infection <span>depuis 2020</span></div>
-                                            <div class="percentage graphic percent60"></div>
+                                            <div class="skillbarTitle">Outils de qualite <span>PHPStan, PHPCS, linters, Infection, etc.</span> <span>depuis 2020</span></div>
+                                            <div class="percentage devops percent90"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">RabbitMQ <span>depuis 2019</span></div>
-                                            <div class="percentage graphic percent70"></div>
+                                            <div class="percentage devops percent70"></div>
+                                        </div>
+                                    </div>
+								</div>
+
+                                <br><br><br><br><br>
+								<div class="skillInner">
+									<div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Claude Code <span>depuis 2026</span></div>
+                                            <div class="percentage ai percent70"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Copilot <span>depuis 2024</span></div>
+                                            <div class="percentage ai percent70"></div>
                                         </div>
                                     </div>
 								</div>
@@ -242,6 +259,13 @@
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">MySQL <span>depuis 2004</span></div>
                                             <div class="percentage progra percent90"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Redis <span>depuis 2018</span></div>
+                                            <div class="percentage progra percent70"></div>
                                         </div>
                                     </div>
 
@@ -279,56 +303,124 @@
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Git <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent80"></div>
+                                            <div class="percentage tools percent80"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Composer <span>depuis 2013</span></div>
-                                            <div class="percentage graphic percent90"></div>
+                                            <div class="percentage tools percent90"></div>
                                         </div>
                                     </div>
 
 									<div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Linux <span>depuis 2009</span></div>
-                                            <div class="percentage graphic percent70"></div>
+                                            <div class="percentage tools percent70"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Bash <span>depuis 2017</span></div>
-                                            <div class="percentage graphic percent70"></div>
+                                            <div class="percentage tools percent70"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">WSL2 <span>depuis 2020</span></div>
-                                            <div class="percentage graphic percent80"></div>
+                                            <div class="percentage tools percent80"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Docker <span>depuis 2015</span></div>
-                                            <div class="percentage graphic percent80"></div>
+                                            <div class="percentage tools percent80"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Kubernetes <span>depuis 2020</span></div>
-                                            <div class="percentage graphic percent50"></div>
+                                            <div class="percentage tools percent50"></div>
                                         </div>
                                     </div>
 
                                     <div class="skillBar">
                                         <div class="skillbarHolder">
                                             <div class="skillbarTitle">Outils de CI (CircleCI, GitLab CI, Github Actions) <span>depuis 2018</span></div>
-                                            <div class="percentage graphic percent80"></div>
+                                            <div class="percentage tools percent80"></div>
+                                        </div>
+                                    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tgreyHolder bgGrey ofsTMedium">
+                        <div class="bigTitle ">
+                            <h1>Soft skills</h1>
+                            <img src="images/star.png" alt="">
+                        </div>
+                    </div>
+
+					<div class="container clearfix">
+						<div class="skillsContent twelve columns margHBottom tLeft">
+							<div class="skill ofsInBottom">
+								<br><br><br><br><br><br>
+								<div class="skillInner">
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Formation des equipes</div>
+                                            <div class="percentage devops percent90"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Gestion d'equipe</div>
+                                            <div class="percentage devops percent80"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Mentoring</div>
+                                            <div class="percentage devops percent70"></div>
+                                        </div>
+                                    </div>
+								</div>
+
+                                <br><br><br><br><br>
+								<div class="skillInner">
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Lead technique</div>
+                                            <div class="percentage ai percent90"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Code review</div>
+                                            <div class="percentage ai percent90"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Architecture &amp; choix techniques</div>
+                                            <div class="percentage ai percent80"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillBar">
+                                        <div class="skillbarHolder">
+                                            <div class="skillbarTitle">Open source / partage de connaissances</div>
+                                            <div class="percentage ai percent80"></div>
                                         </div>
                                     </div>
 								</div>
@@ -351,7 +443,94 @@
                         <div class="employment">
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
+                                </div>
+                                <div class="det">
+                                    <h3>HomeServe<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
+                                    <p>
+                                        Lead technique sur les applications du SI.
+                                        <br>Mise en place des bonnes pratiques de développement et de la CI.
+                                        <br>Architecture et choix techniques.
+                                        <br>Développement de fonctionnalités.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>Depuis juillet 2025</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Lead dev</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>DevOps</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 8.5</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Symfony 8</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>API REST</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>graphQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PostGreSQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>CI/CD</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
+                                </div>
+                                <div class="det">
+                                    <h3>Sportyneo<span>&nbsp;&nbsp;&nbsp;freelance CTO de transition</span> </h3>
+                                    <p>
+                                        Pilotage technique et organisationnel de l'équipe de développement.
+                                        <br>Définition de la vision technique et de la roadmap.
+                                        <br>Mise en place des bonnes pratiques de développement et de la CI/CD.
+                                        <br>Encadrement et montée en compétences de l'équipe.
+                                        <br>Choix d'architecture et arbitrages techniques.
+                                    </p>
+                                    <div class="date">
+                                        <i class="fa fa-calendar-o"></i>
+                                        <span>Avril 2025 - Juin 2025</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>CTO de transition</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>DevOps</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>PHP 8.3</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="date">
+                                        <span>CI/CD</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="em clearfix">
+                                <div class="dtIco">
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>Sogec Marketing<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
@@ -365,7 +544,7 @@
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>De mars 2024 à décembre 2024</span>
+                                        <span>Mars 2024 - Décembre 2024</span>
                                     </div>
                                     <div class="date">
                                         <span>Lead dev</span>
@@ -402,7 +581,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>Fresenius Kabi<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
@@ -416,7 +595,7 @@
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>Depuis octobre 2022</span>
+                                        <span>Octobre 2022 - Décembre 2023</span>
                                     </div>
                                     <div class="date">
                                         <span>Lead dev</span>
@@ -450,7 +629,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>Ubitransport<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
@@ -463,7 +642,7 @@
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>Septembre 2021 - août 2022</span>
+                                        <span>Septembre 2021 - Août 2022</span>
                                     </div>
                                     <div class="date">
                                         <span>Lead dev</span>
@@ -500,7 +679,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>SensioLabs - Safti<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
@@ -542,7 +721,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>OptiSantis<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
@@ -595,7 +774,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>Ageval Solutions<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
@@ -611,7 +790,7 @@
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>Septembre 2019 - septembre 2020</span>
+                                        <span>Septembre 2019 - Septembre 2020</span>
                                     </div>
                                     <div class="date">
                                         <span>Lead dev</span>
@@ -648,7 +827,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>PHP Benchmarks<span>&nbsp;&nbsp;&nbsp;création du projet</span> </h3>
@@ -692,7 +871,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>Wizaplace<span>&nbsp;&nbsp;&nbsp;freelance lead dev</span> </h3>
@@ -747,7 +926,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>SensioLabs - EkoSport<span>&nbsp;&nbsp;&nbsp;freelance référent technique</span> </h3>
@@ -794,7 +973,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>KissTheBride<span>&nbsp;&nbsp;&nbsp;freelance lead développeur</span> </h3>
@@ -828,7 +1007,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>Huttopia<span>&nbsp;&nbsp;&nbsp;freelance lead développeur</span> </h3>
@@ -855,7 +1034,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>C2IS<span>&nbsp;&nbsp;&nbsp;freelance analyste développeur</span> </h3>
@@ -881,7 +1060,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>JAM Difus<span>&nbsp;&nbsp;&nbsp;freelance analyste développeur</span> </h3>
@@ -906,7 +1085,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i></span>
+                                    <span class="ico"><i class="fa fa-briefcase"></i></span>
                                 </div>
                                 <div class="det">
                                     <h3>Jacquet Metals<span>&nbsp;&nbsp;&nbsp;freelance analyste développeur</span> </h3>
@@ -931,7 +1110,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    <span class="ico"><i class="fa fa-briefcase"></i>
                                     </span>
                                 </div>
                                 <div class="det">
@@ -965,7 +1144,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    <span class="ico"><i class="fa fa-briefcase"></i>
                                     </span>
                                 </div>
                                 <div class="det">
@@ -991,7 +1170,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    <span class="ico"><i class="fa fa-briefcase"></i>
                                     </span>
                                 </div>
                                 <div class="det">
@@ -1020,7 +1199,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    <span class="ico"><i class="fa fa-briefcase"></i>
                                     </span>
                                 </div>
                                 <div class="det">
@@ -1049,7 +1228,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    <span class="ico"><i class="fa fa-briefcase"></i>
                                     </span>
                                 </div>
                                 <div class="det">
@@ -1072,7 +1251,7 @@
 
                             <div class="em clearfix">
                                 <div class="dtIco">
-                                    <span class="ico"><i class="fa fa-suitcase"></i>
+                                    <span class="ico"><i class="fa fa-briefcase"></i>
                                     </span>
                                 </div>
                                 <div class="det">
@@ -1158,6 +1337,12 @@
 							<img src="images/github.png" alt="GitHub" title="GitHub" />
 							<br><br>
 							<iframe src="github.php" height="380px"></iframe>
+							<br><br><br>
+							<a href="https://www.linkedin.com/in/steevan-barboyon-4208abb7/" target="_blank">
+								<i class="fa fa-linkedin-square" style="font-size: 128px; cursor: pointer;"></i>
+								<br>
+								LinkedIn
+							</a>
 						</center>
 					</div>
 				</div>
