@@ -1,4 +1,4 @@
-FROM php:7.4-cli-buster
+FROM php:8.3-cli-bookworm
 
 RUN \
     apt-get update \

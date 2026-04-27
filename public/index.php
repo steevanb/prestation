@@ -505,7 +505,7 @@
                                     </p>
                                     <div class="date">
                                         <i class="fa fa-calendar-o"></i>
-                                        <span>Avril 2025 - Juin 2025</span>
+                                        <span>Mars 2025 - Juin 2025</span>
                                     </div>
                                     <div class="date">
                                         <span>CTO de transition</span>
