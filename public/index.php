@@ -7,6 +7,8 @@
 
         <title>Steevan BARBOYON, freelance PHP 7 / Symfony 4</title>
 
+        <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
         <!--Stylesheet-->
         <!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
         <link href="css/font.css" rel="stylesheet" type="text/css">
