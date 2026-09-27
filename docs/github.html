@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>GitHub</title>
+
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/github.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="githubWidget"></div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script src="js/bootstrap-github-widget.min.js" type="text/javascript"></script>
+		<script src="js/packagist.js" type="text/javascript"></script>
+		<script>
+			var title = "<a href='https://github.com/steevanb' target='_blank'>github.com/steevanb</a>";
+
+			fetchPackagistPackages('steevanb')
+				.then(function (packages) {
+					var downloads = packages.reduce(function (total, package_) {
+						return total + package_.downloads.total;
+					}, 0);
+
+					return title + ' - ' + packages.length + ' dépôts - ' + formatNumber(downloads) + ' téléchargements.';
+				})
+				.catch(function () {
+					return title;
+				})
+				.then(function (title) {
+					$('#githubWidget').githubWidget({user: 'steevanb', title: title});
+				});
+		</script>
+	</body>
+</html>

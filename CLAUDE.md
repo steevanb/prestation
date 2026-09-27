@@ -15,7 +15,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 # Projet
 
-Site CV / vitrine de Steevan BARBOYON (InfoDroid) — `info-droid.fr`. Projet PHP statique servi par nginx + php-fpm.
+Site CV / vitrine de Steevan BARBOYON (InfoDroid) — `info-droid.com` (`info-droid.fr` redirige vers le `.com`). Site 100 % statique (HTML/CSS/JS, aucun PHP) hébergé sur GitHub Pages.
 
 ## Démarrer en local
 
@@ -23,35 +23,25 @@ Site CV / vitrine de Steevan BARBOYON (InfoDroid) — `info-droid.fr`. Projet PH
 bin/start
 ```
 
-Lance la stack docker-compose (`docker/docker-compose.yml`) qui build l'image `docker/web` (Ubuntu 18.04 + nginx + PHP 7.2-fpm) et monte la racine du repo dans `/var/www/prestation`. Site accessible sur `http://localhost:8083`.
+Lance `python3 -m http.server` sur le répertoire `docs/`. Site accessible sur `http://localhost:8083`.
 
 ## Livraison en production
 
-```bash
-delivery/site
-```
+GitHub Pages sert la branche `master`, répertoire `/docs`, du dépôt `steevanb/prestation`. Chaque push/merge sur `master` est publié automatiquement, il n'y a aucun script de livraison.
 
-Build l'image `docker/delivery` puis exécute `site.sh` à l'intérieur. Le script :
-1. demande confirmation interactive,
-2. demande un tag git,
-3. clone ce tag depuis `git@github.com:info-droid/prestation.git`,
-4. fait un `composer install --no-dev --classmap-authoritative`,
-5. zippe et `scp` vers `infodroid@info-droid.fr:/data/www/prestation/delivery_<date>__tag_<tag>`,
-6. bascule le symlink `current` et reload nginx.
-
-Prérequis : copier deux clés SSH privées dans `docker/delivery/ssh/` :
-- `github` — accès `git@github.com:info-droid/prestation.git`
-- `server_site` — accès `infodroid@info-droid.fr`
-
-Ce dossier est gitignoré.
+- `docs/CNAME` contient le domaine personnalisé `info-droid.com` (le DNS pointe sur les IP GitHub Pages).
+- `info-droid.fr` n'est pas géré par GitHub Pages (un seul domaine personnalisé par site) : la redirection vers `https://info-droid.com` est configurée chez le registrar.
+- `docs/.nojekyll` désactive le traitement Jekyll.
 
 ## Architecture du site
 
-Le site est une page unique `public/index.php` (HTML quasi statique, une seule balise PHP pour l'année du copyright) qui agrège plusieurs sections : à propos, compétences, expériences professionnelles, études, liens externes.
+Le site est une page unique `docs/index.html` qui agrège plusieurs sections : à propos, compétences, expériences professionnelles, études, liens externes. L'année du copyright est mise à jour en JS (`#copyrightYear`).
 
-Deux endpoints PHP secondaires inclus en `<iframe>` ou utilisés via XHR :
-- `public/github.php` — agrège l'activité GitHub publique de `steevanb`.
-- `public/packagist-stats.php` — utilise `knplabs/packagist-api` (seule dépendance runtime).
+Pages secondaires :
+- `docs/github.html` — inclus en `<iframe>` dans `index.html`, affiche le widget GitHub de `steevanb` (API GitHub appelée côté navigateur) avec le nombre de dépôts et de téléchargements Packagist dans le titre.
+- `docs/packagist-stats.html` — statistiques détaillées de chaque paquet Packagist `steevanb/*`.
+
+Les stats Packagist sont récupérées côté navigateur par `docs/js/packagist.js` (`fetchPackagistPackages()`) : `packages/list.json?vendor=steevanb` puis `packages/<nom>.json` pour chaque paquet (l'API Packagist autorise le CORS).
 
 Le menu de navigation et les blocs d'expériences ont une structure répétitive HTML — toute nouvelle expérience doit suivre exactement le format des `<div class="em clearfix">` existantes (icône `<i class="fa fa-briefcase">`, `<h3>` avec sous-titre `<span>`, paragraphe `<p>` descriptif, puis une série de `<div class="date">` : la première contient l'icône calendrier + dates, les suivantes contiennent les tags techno/rôle).
 
@@ -59,6 +49,5 @@ Le menu de navigation et les blocs d'expériences ont une structure répétitive
 
 ## Pièges connus
 
-- L'image de delivery historique (`php:7.4-cli-buster`) ne build plus : Debian buster est EOL depuis juin 2024 et ses dépôts retournent 404 sur `deb.debian.org`. Le Dockerfile a été migré vers `php:8.3-cli-bookworm`.
-- L'image `docker/web` est sur Ubuntu 18.04 + PHP 7.2 (PPA `ondrej/php`) — vieille mais suffisante pour ce site quasi statique. Ne pas y toucher sans vérifier que le `composer install` au boot du conteneur fonctionne toujours avec les versions de dépendances actuelles.
-- `vhost.conf` whiteliste explicitement les trois `.php` exposés (`index`, `github`, `packagist-stats`) — tout nouveau script PHP à exposer doit être ajouté à la regex.
+- Aucun code serveur possible : tout ce qui est dynamique doit passer par du JS côté navigateur et des API qui autorisent le CORS.
+- Ne pas supprimer `docs/CNAME` : GitHub Pages perdrait le domaine personnalisé.

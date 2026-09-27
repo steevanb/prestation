@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Steevan BARBOYON" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Statistiques Packagist</title>
+        <link rel="icon" type="image/svg+xml" href="favicon.svg">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/packagist-stats.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div id="summary" class="panel-body text-center" style="background-color: #DFF0D8">
+                        Chargement des statistiques Packagist…
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="packages" class="row"></div>
+
+        <script src="js/packagist.js" type="text/javascript"></script>
+        <script>
+            function escapeHtml(value) {
+                var element = document.createElement('div');
+                element.textContent = value === null || value === undefined ? '' : String(value);
+
+                return element.innerHTML;
+            }
+
+            function stat(icon, label, value, align) {
+                return '<div class="col-md-4 ' + align + '">'
+                    + '<span class="stat-left"><span class="fa fa-' + icon + '"></span> ' + label + '</span>'
+                    + '<span class="stat-right">' + formatNumber(value || 0) + '</span>'
+                    + '</div>';
+            }
+
+            function renderPackage(package_) {
+                return '<div class="col-md-4">'
+                    + '<div class="panel panel-default">'
+                    + '<div class="panel-heading"><div class="row">'
+                    + '<div class="col-md-9"><h3 class="panel-title">'
+                    + '<a href="' + escapeHtml(package_.repository) + '" target="_blank">' + escapeHtml(package_.name) + '</a>'
+                    + '</h3></div>'
+                    + '<div class="col-md-3 text-right">' + new Date(package_.time).toLocaleDateString('fr-FR') + '</div>'
+                    + '</div></div>'
+                    + '<div class="panel-body">'
+                    + '<div class="row">'
+                    + stat('eye', 'Watch', package_.github_watchers, '')
+                    + stat('star', 'Star', package_.github_stars, 'text-center')
+                    + stat('code-fork', 'Fork', package_.github_forks, 'text-right')
+                    + '</div>'
+                    + '<div class="row stats-separator">'
+                    + stat('download', 'Today', package_.downloads.daily, '')
+                    + stat('download', '30 days', package_.downloads.monthly, 'text-center')
+                    + stat('download', 'Total', package_.downloads.total, 'text-right')
+                    + '</div>'
+                    + '</div>'
+                    + '</div>'
+                    + '</div>';
+            }
+
+            fetchPackagistPackages('steevanb')
+                .then(function (packages) {
+                    var downloads = packages.reduce(function (total, package_) {
+                        return total + package_.downloads.total;
+                    }, 0);
+
+                    document.getElementById('summary').textContent =
+                        formatNumber(packages.length) + ' dépôts, ' + formatNumber(downloads) + ' téléchargements';
+                    document.getElementById('packages').innerHTML = packages.map(renderPackage).join('');
+                })
+                .catch(function () {
+                    document.getElementById('summary').textContent = 'Impossible de récupérer les statistiques Packagist.';
+                });
+        </script>
+    </body>
+</html>
