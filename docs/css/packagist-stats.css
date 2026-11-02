@@ -1,7 +1,9 @@
 body {
     background-color: #F3F3F3;
     cursor: default;
-    margin: 10px;
+    /* Padding horizontal >= 15px pour absorber les marges négatives des .row Bootstrap, sinon la page déborde */
+    margin: 0;
+    padding: 10px 15px;
 }
 
 .stat-left {
@@ -20,6 +22,44 @@ body {
 
 .stats-separator {
     margin-top: 15px;
+}
+
+/* Grille en flex : avec les floats Bootstrap, une carte plus haute (anciens noms) bloque les suivantes et laisse des trous */
+#packages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#packages:before,
+#packages:after {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    #packages > div {
+        width: 100%;
+    }
+}
+
+#packages > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#packages > div > .panel {
+    flex: 1;
+}
+
+.previous-names {
+    color: #777;
+}
+
+.package-labels {
+    margin-top: 4px;
+}
+
+.package-labels:empty {
+    display: none;
 }
 
 .panel-default .panel-heading {
