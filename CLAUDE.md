@@ -20,18 +20,19 @@ Site CV / vitrine de Steevan BARBOYON (InfoDroid) — `info-droid.com` (`info-dr
 ## Démarrer en local
 
 ```bash
-bin/start
+python3 -m http.server 8083 --directory docs
 ```
 
-Lance `python3 -m http.server` sur le répertoire `docs/`. Site accessible sur `http://localhost:8083`.
+Site accessible sur `http://localhost:8083`.
 
 ## Livraison en production
 
 GitHub Pages sert la branche `master`, répertoire `/docs`, du dépôt `steevanb/prestation`. Chaque push/merge sur `master` est publié automatiquement, il n'y a aucun script de livraison.
 
-- `docs/CNAME` contient le domaine personnalisé `info-droid.com` (le DNS pointe sur les IP GitHub Pages).
-- `info-droid.fr` n'est pas géré par GitHub Pages (un seul domaine personnalisé par site) : la redirection vers `https://info-droid.com` est configurée chez le registrar.
+- `docs/CNAME` contient le domaine personnalisé `info-droid.com`.
 - `docs/.nojekyll` désactive le traitement Jekyll.
+
+Noms de domaine (DNS `.com` / `.fr`, redirections, mail, reste à faire) : voir `documentation/domain.md`. À tenir à jour à chaque modification DNS.
 
 ## Architecture du site
 
@@ -51,3 +52,4 @@ Le menu de navigation et les blocs d'expériences ont une structure répétitive
 
 - Aucun code serveur possible : tout ce qui est dynamique doit passer par du JS côté navigateur et des API qui autorisent le CORS.
 - Ne pas supprimer `docs/CNAME` : GitHub Pages perdrait le domaine personnalisé.
+- `info-droid.fr` : DNS chez Cloudflare, ne jamais revenir à la redirection web OVH (pas de HTTPS). Détails dans `documentation/domain.md`.

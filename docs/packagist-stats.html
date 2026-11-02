@@ -38,13 +38,85 @@
                     + '</div>';
             }
 
+            function renderAbandoned(package_) {
+                if (!package_.abandoned) {
+                    return '';
+                }
+
+                return '<div class="package-labels"><span class="label label-warning">Abandonné'
+                    + (typeof package_.abandoned === 'string' ? ' au profit de ' + escapeHtml(package_.abandoned) : '')
+                    + '</span></div>';
+            }
+
+            // Temps écoulé depuis une date, ex. "1 an, 3 mois et 1 jour"
+            function formatElapsedTime(date) {
+                var today = new Date();
+                today.setHours(0, 0, 0, 0);
+
+                var years = today.getFullYear() - date.getFullYear();
+                var months = today.getMonth() - date.getMonth();
+                var days = today.getDate() - date.getDate();
+                if (days < 0) {
+                    months--;
+                    // Nombre de jours du mois précédent celui d'aujourd'hui
+                    days += new Date(today.getFullYear(), today.getMonth(), 0).getDate();
+                }
+                if (months < 0) {
+                    years--;
+                    months += 12;
+                }
+
+                var parts = [];
+                if (years > 0) {
+                    parts.push(years + (years > 1 ? ' ans' : ' an'));
+                }
+                if (months > 0) {
+                    parts.push(months + ' mois');
+                }
+                if (days > 0) {
+                    parts.push(days + (days > 1 ? ' jours' : ' jour'));
+                }
+
+                return parts.length > 1 ? parts.slice(0, -1).join(', ') + ' et ' + parts[parts.length - 1] : parts.join('');
+            }
+
+            // Affiche la date du dernier téléchargement si elle remonte à plus de 6 mois.
+            // Un paquet téléchargé dans les 30 derniers jours n'est pas concerné : pas d'appel aux stats journalières.
+            function renderLastDownload(package_) {
+                if (package_.downloads.monthly > 0) {
+                    return;
+                }
+
+                fetchPackagistLastDownloadDate([package_.name].concat(package_.previousNames))
+                    .then(function (date) {
+                        var sixMonthsAgo = new Date();
+                        sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+                        if (date === null || date >= sixMonthsAgo) {
+                            return;
+                        }
+
+                        document.querySelector('.last-download[data-package="' + package_.name + '"]').innerHTML =
+                            '<span class="label label-default">Dernier téléchargement le '
+                            + date.toLocaleDateString('fr-FR')
+                            + ' (il y a ' + formatElapsedTime(date) + ')'
+                            + '</span>';
+                    })
+                    .catch(function () {});
+            }
+
             function renderPackage(package_) {
                 return '<div class="col-md-4">'
                     + '<div class="panel panel-default">'
                     + '<div class="panel-heading"><div class="row">'
                     + '<div class="col-md-9"><h3 class="panel-title">'
                     + '<a href="' + escapeHtml(package_.repository) + '" target="_blank">' + escapeHtml(package_.name) + '</a>'
-                    + '</h3></div>'
+                    + '</h3>'
+                    + (package_.previousNames.length > 0
+                        ? '<small class="previous-names">Anciennement ' + package_.previousNames.map(escapeHtml).join(', ') + '</small>'
+                        : '')
+                    + renderAbandoned(package_)
+                    + '<div class="package-labels last-download" data-package="' + escapeHtml(package_.name) + '"></div>'
+                    + '</div>'
                     + '<div class="col-md-3 text-right">' + new Date(package_.time).toLocaleDateString('fr-FR') + '</div>'
                     + '</div></div>'
                     + '<div class="panel-body">'
@@ -72,6 +144,7 @@
                     document.getElementById('summary').textContent =
                         formatNumber(packages.length) + ' dépôts, ' + formatNumber(downloads) + ' téléchargements';
                     document.getElementById('packages').innerHTML = packages.map(renderPackage).join('');
+                    packages.forEach(renderLastDownload);
                 })
                 .catch(function () {
                     document.getElementById('summary').textContent = 'Impossible de récupérer les statistiques Packagist.';
